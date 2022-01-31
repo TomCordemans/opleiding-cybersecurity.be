@@ -1,0 +1,25 @@
+{
+  "name": "opleiding-cybersecurity-be",
+  "version": "0.0.0",
+  "description": "Cybersecurity Flankerend beleid",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "keywords": [],
+  "author": "Tom Cordemans",
+  "license": "Creative Commons Attribution-ShareAlike 4.0 International License",
+  "dependencies": {},
+  "devDependencies": {
+    "vuepress": "^1.2.0",
+    "vuepress-plugin-zooming": "^1.1.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomCordemans/opleiding-cybersecurity.be"
+  },
+  "bugs": {
+    "url": "https://github.com/TomCordemans/opleiding-cybersecurity.be/issues"
+  },
+  "homepage": "https://github.com/TomCordemans/opleiding-cybersecurity.be#readme"
+}
