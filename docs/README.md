@@ -12,3 +12,13 @@ Welkom op de cursus:
 
 
 ![Success](./assets/under_construction.png)
+
+Auteur: Tom Cordemans
+
+Contactgegevens:
+
+[E-mail](tom.cordemans@vives.be)
+
+[LinkedIn](linkedin.com/in/tom-cordemans-54419821)
+
+
