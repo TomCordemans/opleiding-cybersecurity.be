@@ -7,9 +7,7 @@ module.exports = {
       { text: 'Hogeschool VIVES', link: 'https://www.vives.be' },
       { text: 'License', link: '/LICENSE.md' },
     ],
-    sidebar: [
-      ['/', 'Home'],
-    ],
+    sidebar: [['/', 'Home'], ['/voorwoord/', 'Voorwoord']],
     repo: 'https://github.com/TomCordemans/opleiding-cybersecurity.be',
     docsDir: 'docs',
     docsBranch: 'master'
