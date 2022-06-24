@@ -16,7 +16,9 @@ Welkom op de cursus:
 Auteur: Tom Cordemans
 
 Contactgegevens:
+
 [E-mail](mailto:tom.cordemans@vives.be)
+
 [LinkedIn](https://linkedin.com/in/tom-cordemans-54419821)
 
 
