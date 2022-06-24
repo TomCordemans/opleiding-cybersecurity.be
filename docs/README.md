@@ -6,7 +6,10 @@ title: Home
 
 > Cybersecurity Flankerend beleid
 
-![Success](./assets/success.png)
+Welkom op de cursus: **Efficiënt gebruik van een "network protocol analyzer" bij cybersecurity threats**
+
+
+![Success](./assets/under_construction.png)
 
 This is the home page of your VuePress course website.
 
