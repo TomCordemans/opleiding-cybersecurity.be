@@ -26,3 +26,27 @@ Een network protocol analyzer is software of een service die netwerkverkeer capt
 
 
 Een SIEM wordt hoofdzakelijk gebruikt in de context van cybersecurity threats. Een network protocol analyzer daarentegen kan ruimer ingezet worden. Vaak wordt een network protocol analyzer gebruik bij troubleshooting. (Problemen met de performantie van het netwerk, ... )
+
+## Cyber Kill Chain Model
+
+Om een cybersecurity gerelateerde activiteit voor te stellen, maakt men vaak gebruik van het Cyber Kill Chain Model.
+
+Meer info omtrent dit model vindt u op volgende [link](https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html)
+
+
+---
+
+_Oefening:_
+Bij welke onderdelen van het Cyber Kill Chain Model kan er netwerkverkeer gegenereerd worden? Probeer ook een omschrijving te geven van het netwerkverkeer.
+
+- Reconnaissance:
+- Weaponization:
+- Delivery:
+- Exploitation:
+- Installation:
+- Command and Control:
+- Actions on Objective:
+
+_Oplossing:_
+
+---
