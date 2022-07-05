@@ -17,4 +17,8 @@ Een SIEM is software of een service die gegevens van verschillende applicaties e
 
 ![SIEM](./assets/SIEM.png)
 
+Een Network Protocol Analyzer is software of een service die netwerkverkeer capteert, analyseert en visualiseert.
+Onderstaande figuur toont de schematische voorstelling van een Network Protocol Analyzer. Meer specifiek Wireshark. Deze figuur wordt later in de cursus uitgebreid besproken.
+
+![SIEM](./assets/WIRESHARK.png)
 
