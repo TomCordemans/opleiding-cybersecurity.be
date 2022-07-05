@@ -11,3 +11,25 @@ Daarnaast bleken de verkregen skills ook uiterst bruikbaar binnen het analyseren
 ## Leerdoelstelling
 
 Heel wat bedrijven maken gebruik van een SIEM (Security Information and Event Management).Een dergelijke oplossing zorgt voor een holistische kijk op de informatiebeveiliging van een organisatie. Eenmaal diepgaand onderzoek nodig is, valt men vaak terug op onder andere "network protocol analyzers" Hierbij ontbreekt het vaak een de nodige "skill set" om deze tool efficiënt te gebruiken.
+
+## Vereiste voorkennis en doelpubliek
+
+Een degelijke voorkennis omtrent netwerkprotocollen en netwerkanalyse is noodzakelijk.
+(CompTIA Network+, CCNA, ... )
+Deze cursus is geschreven voor systeembeheerders, netwerkbeheerders, SOC analisten, security engineers, ...
+
+## Verschillende werkvormen
+
+Deze cursus kan gebruikt worden als een self-paced training. Daarnaast kan deze cursus gebruikt worden als basis voor hands-on workshop. Hierbij beschikt de docent over de vrijheid om extra oefeningen of uitbreidingen te voorzien. Het cursusmateriaal valt onder de Creative Commons-licentie: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
+
+## Dankwoord
+
+Het cursusmateriaal werd met financiële steun van de Vlaamse overheid ontwikkeld.
+Daarnaast verkreeg ik (Tom Cordemans) de toestemming van Brad Duncan om bestanden te gebruiken van  [Malware-Traffic-Analysis.net](https://www.malware-traffic-analysis.net/).
+
+## Feedback
+
+Vragen en opmerkingen zijn steeds welkom!
+
+[E-mail](mailto:tom.cordemans@vives.be)
+[LinkedIn](https://linkedin.com/in/tom-cordemans-54419821)
