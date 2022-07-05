@@ -34,9 +34,9 @@ Om een cybersecurity gerelateerde activiteit voor te stellen, maakt men vaak geb
 Meer info omtrent dit model vindt u op volgende [link](https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html)
 
 
-___
+---
 
-__Oefening:__
+***Oefening:***
 Bij welke onderdelen van het Cyber Kill Chain Model kan er netwerkverkeer gegenereerd worden? Probeer ook een omschrijving te geven van het netwerkverkeer.
 
 - Reconnaissance:
@@ -47,6 +47,6 @@ Bij welke onderdelen van het Cyber Kill Chain Model kan er netwerkverkeer gegene
 - Command and Control:
 - Actions on Objective:
 
-__Oplossing:__
+***Oplossing:***
 
-___
+---
