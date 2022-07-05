@@ -21,11 +21,14 @@ Deze cursus is geschreven voor systeembeheerders, netwerkbeheerders, SOC analist
 
 ## Verschillende werkvormen
 
-Deze cursus kan gebruikt worden als een self-paced training. Daarnaast kan deze cursus gebruikt worden als basis voor hands-on workshop. Hierbij beschikt de docent over de vrijheid om extra oefeningen of uitbreidingen te voorzien. Het cursusmateriaal valt onder de Creative Commons-licentie: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
+Deze cursus kan gebruikt worden als een self-paced training. Daarnaast kan deze cursus gebruikt worden als basis voor hands-on workshop. Hierbij beschikt de docent over de vrijheid om extra oefeningen of uitbreidingen te voorzien.
+
+Het cursusmateriaal valt onder de Creative Commons-licentie: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
 
 ## Dankwoord
 
 Het cursusmateriaal werd met financiële steun van de Vlaamse overheid ontwikkeld.
+
 Daarnaast verkreeg ik (Tom Cordemans) de toestemming van Brad Duncan om bestanden te gebruiken van [Malware-Traffic-Analysis.net](https://www.malware-traffic-analysis.net/).
 
 ## Feedback
