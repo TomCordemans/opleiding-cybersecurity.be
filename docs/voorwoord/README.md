@@ -16,6 +16,7 @@ Heel wat bedrijven maken gebruik van een SIEM (Security Information and Event Ma
 
 Een degelijke voorkennis omtrent netwerkprotocollen en netwerkanalyse is noodzakelijk.
 (CompTIA Network+, CCNA, ... )
+
 Deze cursus is geschreven voor systeembeheerders, netwerkbeheerders, SOC analisten, security engineers, ...
 
 ## Verschillende werkvormen
@@ -25,11 +26,12 @@ Deze cursus kan gebruikt worden als een self-paced training. Daarnaast kan deze 
 ## Dankwoord
 
 Het cursusmateriaal werd met financiële steun van de Vlaamse overheid ontwikkeld.
-Daarnaast verkreeg ik (Tom Cordemans) de toestemming van Brad Duncan om bestanden te gebruiken van  [Malware-Traffic-Analysis.net](https://www.malware-traffic-analysis.net/).
+Daarnaast verkreeg ik (Tom Cordemans) de toestemming van Brad Duncan om bestanden te gebruiken van [Malware-Traffic-Analysis.net](https://www.malware-traffic-analysis.net/).
 
 ## Feedback
 
 Vragen en opmerkingen zijn steeds welkom!
 
 [E-mail](mailto:tom.cordemans@vives.be)
+
 [LinkedIn](https://linkedin.com/in/tom-cordemans-54419821)
