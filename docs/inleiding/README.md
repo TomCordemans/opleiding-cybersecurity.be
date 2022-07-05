@@ -47,7 +47,7 @@ Bij welke onderdelen van het Cyber Kill Chain Model kan er netwerkverkeer gegene
 - Command and Control:
 - Actions on Objective:
 
-![Oplossing oefening 1](./assets/OEFENING1.pdf)
+[Oplossing oefening 1](https://opleiding-cybersecurity.be/inleiding/assets/OEFENING1.pdf)
 
 
 
