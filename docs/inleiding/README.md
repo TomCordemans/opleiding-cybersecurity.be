@@ -13,12 +13,16 @@ In deze vergelijking is de microscoop een network protocol analyzer en de drone 
 
 ## SIEM versus Network Protocol Analyzer.
 
-Een SIEM is software of een service die gegevens van verschillende applicaties en apparatuur centraal verzamelt, analyseert en visualiseert.
+Een SIEM (Security Information and Event Management)  is software of een service die gegevens van verschillende applicaties en apparatuur centraal verzamelt, analyseert en visualiseert.
+
 
 ![SIEM](./assets/SIEM.png)
 
-Een Network Protocol Analyzer is software of een service die netwerkverkeer capteert, analyseert en visualiseert.
-Onderstaande figuur toont de schematische voorstelling van een Network Protocol Analyzer. Meer specifiek Wireshark. Deze figuur wordt later in de cursus uitgebreid besproken.
 
-![SIEM](./assets/WIRESHARK.png)
+Een network protocol analyzer is software of een service die netwerkverkeer capteert, analyseert en visualiseert.
 
+
+![NPA](./assets/NPA.png)
+
+
+Een SIEM wordt hoofdzakelijk gebruikt in de context van cybersecurity threats. Een network protocol analyzer daarentegen kan ruimer ingezet worden. Vaak wordt een network protocol analyzer gebruik bij troubleshooting. (Problemen met de performantie van het netwerk, ... )
