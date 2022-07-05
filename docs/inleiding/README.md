@@ -47,13 +47,14 @@ Bij welke onderdelen van het Cyber Kill Chain Model kan er netwerkverkeer gegene
 - Command and Control:
 - Actions on Objective:
 
-[Oplossing](./assets/OEFENING1.pdf)
+[Oplossing](https://opleiding-cybersecurity.be/inleiding/assets/OEFENING1.pdf)
 
 ## Waarschuwing
+
 
 **Het analyseren van netwerkverkeer is niet zonder risico. Men kan bestanden extraheren uit netwerkverkeer.**
 **Indien een bestand malware bevat, kan dit tot ongewenste consequenties leiden.**
 **Enige voorzichtigheid is hierbij wel geboden.**
 
 
-**Als preventieve maatregel kan men opteren voor een volledig gescheiden omgeving om netwerkanalyses uit te voeren.**
+Als preventieve maatregel kan men opteren voor een volledig gescheiden omgeving om netwerkanalyses uit te voeren.
