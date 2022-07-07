@@ -27,7 +27,9 @@ Ter info: Dit is de reden waarom tijdens de installatie van Wireshark op een Mic
 
 ![NPCAP](./assets/NPCAP.png)
 
+Om accurater te meten kan men ook IPv4 en IPv6 uitschakelen op de netwerkkaart. Zo capteert men geen netwerkverkeer van het captatietoestel zelf.
 
+![NOIP](./assets/NOIP.png)
 
 
 
