@@ -33,10 +33,7 @@ Om accurater te meten kan men ook IPv4 en IPv6 uitschakelen op de netwerkkaart. 
 
 Als we ons captatietoestel aansluiten op een switch, kunnen we onmogelijk al het netwerkverkeer capteren. De reden hiervoor is vrij simpel. Een switch filtert namelijk het netwerkverkeer op basis van het destinatie MAC-adres. 
 
-
-
-
-
+![NOIP](./assets/SWITCH.png)
 
 Mogelijke werkwijzen bij het capteren:
 
