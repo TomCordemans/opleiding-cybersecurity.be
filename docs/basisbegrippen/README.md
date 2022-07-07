@@ -20,3 +20,14 @@ Standaard verwerkt een netwerkkaart enkel specifieke frames.
 Alle andere frames worden standaard genegeerd. Dit is uiteraard geen gewenst situatie bij het capteren van netwerkverkeer.
 We willen namelijk alle frames capteren ongeacht het destinatie MAC-adres.
 
+Wanneer een netwerkkaart in "promiscuous mode" werkt, wordt het destinatie MAC-adres genegeerd en worden alle frame verwerkt ongeacht het destinatie MAC-adres. Deze mode is uiteraard cruciaal bij het capteren van netwerkverkeer.
+
+Applicaties zoals TCPdump en Wireshark plaatsen de netwerkkaart standaard in "promiscuous mode".
+Ter info: Dit is de reden waarom tijdens de installatie van Wireshark op een Microsoft besturingssysteem een extra stuurprogramma (Npcap) wordt geïnstalleerd.
+
+![NPCAP](./assets/NPCAP.png)
+
+
+
+
+
