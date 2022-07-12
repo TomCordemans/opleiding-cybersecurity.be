@@ -33,13 +33,21 @@ Om accurater te meten kan men ook IPv4 en IPv6 uitschakelen op de netwerkkaart. 
 
 Als we ons captatietoestel aansluiten op een switch, kunnen we onmogelijk al het netwerkverkeer capteren. De reden hiervoor is vrij simpel. Een switch filtert namelijk het netwerkverkeer op basis van het destinatie MAC-adres. 
 
-![NOIP](./assets/SWITCH.png)
+![SWITCH](./assets/SWITCH.png)
 
 Mogelijke werkwijzen bij het capteren:
 
-- Op het toestel zelf.
-- Via een port mirror
-- Via een tap
+1. Op het toestel zelf
+Hierbij hebben we nog 2 opties:
+- Het toestel beschikt over een eigen capteerfunctie.
+![FORTIGATE](./assets/FORTIGATE.png)
+- Men kan een network protocol analyzer installeren op het toestel.
+![ONDEVICE](./assets/ONDEVICE.png) 
+
+2. Via een port mirror
+3. Via een tap
+
+
 
 
 
