@@ -11,7 +11,8 @@ module.exports = {
       ['/', 'Home'],
       ['/voorwoord/', 'Voorwoord'],
       ['/inleiding/', 'Inleiding'],
-      ['/basisbegrippen/', 'Basisbegrippen']
+      ['/basisbegrippen/', 'Basisbegrippen'],
+      ['/bootcamp-wireshark/', 'Bootcamp Wireshark']
     ],
     repo: 'https://github.com/TomCordemans/opleiding-cybersecurity.be',
     docsDir: 'docs',
