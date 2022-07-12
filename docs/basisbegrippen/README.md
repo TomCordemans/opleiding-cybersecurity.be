@@ -67,7 +67,18 @@ Hieronder een foto van de hardware en de weergave van de opstelling.
 
 ![TAP](./assets/TAP.png)  
 
-Let op: Bij het plaatsen van een tap veroorzaakt men kort een onderbreking van de netwerkfunctionaliteit!
+Let op: Bij het plaatsen van een tap veroorzaakt men kort een onderbreking van de netwerkfunctionaliteit!  
+
+Een vaakgestelde vraag: _Op welke plaatsen in mijn netwerk moet ik precies capteren?_  
+
+Dit is geen eenvoudige vraag. Accurate en actuele documentatie van het netwerk is hierbij noodzakelijk.  
+
+Uiteraard zijn bepaalde locaties zeer relevant:  
+- Aangezien een aanvaller hoogstwaarschijnlijk communiceert via het Internet is capteren ter hoogte van de edge firewall sterk aangewezen.
+- Ook cruciale netwerktoestellen (Servers, IDS/IPS, WiFi-controller ...) zijn meestal logische plaatsen om netwerkverkeer te capteren.
+
+Opmerking:  
+Het capteren van netwerkverkeer heeft uiteraard ook consequenties. De nood aan opslagcapaciteit en respect voor de huidige regelgeving.  
 
 ### PCAP of PCAPng
 
