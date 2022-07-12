@@ -98,10 +98,21 @@ Deze informatie kan belangrijk zijn bij het maken van de rapportage van een inci
 Standaard wordt PCAPng gebruikt in Wireshark, Tshark, PacketTotal, ... .  
 Uiteraard kunnen PCAPng geconverteerd worden naar PCAP en omgekeerd.  
 
+## Het analyseren van netwerkverkeer
 
+In deze fase wordt het netwerkverkeer gedissecteerd in verschillende netwerkprotocollen. Deze berg aan informatie kan daarna gebruikt worden om specifieke problematieken verder te onderzoeken. (Performantie, malware, datalekken, ...)  
+Een vaak gebruikte applicatie voor de analyse van netwerkverkeer is Wireshark. Andere applicaties zijn o.a. NetworkMiner, ... .  
+Uiteraard is een zeer goed kennis van netwerkprotocollen van cruciaal belang.  
+Neem volgende vergelijking: Een CT-scan uitvoeren is relatief eenvoudig handeling, de verkregen informatie correct analyseren is daarentegen een ander paar mouwen.
 
+Op het Internet zijn er verschillende bronnen voor PCAP-bestanden beschikbaar:
+- https://gitlab.com/wireshark/wireshark/-/wikis/SampleCaptures
+- https://packetlife.net/captures/
+- https://www.netresec.com/?page=PcapFiles
+- ...
 
-
+Aan de hand van deze bestanden kan men verschillende protocollen bestuderen.  
+Het volgende onderdeel van de cursus bevat een bootcamp Wireshark. Neem voldoende om de basishandelingen onder de knie te krijgen.  
 
 
 
