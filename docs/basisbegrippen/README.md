@@ -59,7 +59,6 @@ Sommige toestellen (switches, ...) hebben de optie om het netwerkverkeer van een
 Als voorbeeld een configuratie die wordt gebruikt bij een Cisco Catalyst 2960 switch.
 
 `Switch(config)# monitor session 1 source interface gigabitethernet0/1`
-
 `Switch(config)# monitor session 1 destination interface gigabitethernet0/2 encapsulation replicate`
 
 ![PORTMIRROR](./assets/PORTMIRROR.png) 
@@ -67,7 +66,8 @@ Als voorbeeld een configuratie die wordt gebruikt bij een Cisco Catalyst 2960 sw
 
 3. Via een tap
 
-Men kan ook opteren om tap te plaatsen in het netwerk.
+Men kan ook opteren om een tap te plaatsen in het netwerk.
+
 Let op: Bij het plaatsen van een tap veroorzaakt men kort een onderbreking van de netwerkfunctionaliteit!
 
 Hieronder een foto van de hardware en de weergave van de opstelling.
