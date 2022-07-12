@@ -58,8 +58,8 @@ Hierbij hebben we nog 2 opties:
 Sommige toestellen (switches, ...) hebben de optie om het netwerkverkeer van een bepaalde netwerkpoort te dupliceren.
 Als voorbeeld een configuratie die wordt gebruikt bij een Cisco Catalyst 2960 switch.
 
-`Switch(config)# monitor session 1 source interface gigabitethernet0/1`
-`Switch(config)# monitor session 1 destination interface gigabitethernet0/2 encapsulation replicate`
+`Switch(config)# monitor session 1 source interface gigabitethernet0/1`  
+`Switch(config)# monitor session 1 destination interface gigabitethernet0/2 encapsulation replicate`  
 
 ![PORTMIRROR](./assets/PORTMIRROR.png) 
 
