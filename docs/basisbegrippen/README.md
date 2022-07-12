@@ -69,10 +69,23 @@ Hieronder een foto van de hardware en de weergave van de opstelling.
 
 Let op: Bij het plaatsen van een tap veroorzaakt men kort een onderbreking van de netwerkfunctionaliteit!
 
+### PCAP of PCAPng
 
+PCAP (Packet Capture) is het meest universele bestandsformaat voor een captatie van netwerkverkeer. Bijna alle network protocol analyzers ondersteunen PCAP. In de loop der jaren werden nieuwe bestandsformaten geïntroduceerd.  
+Als voorbeeld PCAPng. (ng => Next Generation)  
 
+De belangrijkste voordelen van PCAPng zijn:
+- Het toevoegen van opmerkingen in het captatiebestand.
+- Aanwezigheid van metadata in het captatiebestand.
 
+Deze informatie kan belangrijk zijn bij het maken van de rapportage van een incident.
 
+![PCAPMETA](./assets/PCAPMETA.png)  
+
+![PCAPNGMETA](./assets/PCAPNGMETA.png)  
+
+Standaard wordt PCAPng gebruikt in Wireshark, Tshark, PacketTotal, ... .  
+Uiteraard kunnen PCAPng geconverteerd worden naar PCAP en omgekeerd.  
 
 
 
