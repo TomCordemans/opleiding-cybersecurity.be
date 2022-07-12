@@ -38,7 +38,9 @@ Als we ons captatietoestel aansluiten op een switch, kunnen we onmogelijk al het
 Mogelijke werkwijzen bij het capteren:
 
 1. Op het toestel zelf
+
 Hierbij hebben we nog 2 opties:
+
 - Het toestel beschikt over een eigen capteerfunctie. Als voorbeeld een screenshot van Fortinet firewall.
 
 
@@ -64,6 +66,16 @@ Als voorbeeld een configuratie die wordt gebruikt bij een Cisco Catalyst 2960 sw
 
 
 3. Via een tap
+
+Men kan ook opteren om tap te plaatsen in het netwerk.
+Let op: Bij het plaatsen van een tap veroorzaakt men kort een onderbreking van de netwerkfunctionaliteit!
+
+Hieronder een foto van de hardware en de weergave van de opstelling.
+
+![TAP](./assets/TAP.png) 
+
+
+
 
 
 
