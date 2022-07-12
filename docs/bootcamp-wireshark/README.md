@@ -44,7 +44,7 @@ Daarna zullen we enkele instellingen aanpassen die zullen helpen efficiënter te
 
 [Aanmaken van een eigen profiel](https://opleiding-cybersecurity.be/PROFIEL.mkv)
 
-![OEFENING2](./assets/profiel.mkv)
+[OEFENING2](./assets/profiel.mkv)
 
 
 
