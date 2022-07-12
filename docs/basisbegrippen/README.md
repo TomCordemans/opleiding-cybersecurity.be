@@ -39,10 +39,17 @@ Mogelijke werkwijzen bij het capteren:
 
 1. Op het toestel zelf
 Hierbij hebben we nog 2 opties:
-- Het toestel beschikt over een eigen capteerfunctie.
+- Het toestel beschikt over een eigen capteerfunctie. Als voorbeeld een screenshot van Fortinet firewall.
+
+
 ![FORTIGATE](./assets/FORTIGATE.png)
-- Men kan een network protocol analyzer installeren op het toestel.
+
+
+- Men kan een network protocol analyzer installeren op het toestel. Denk bijvoorbeeld aan een kritische server of een specifieke client computer.
+
+
 ![ONDEVICE](./assets/ONDEVICE.png) 
+
 
 2. Via een port mirror
 3. Via een tap
