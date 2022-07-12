@@ -106,9 +106,9 @@ Uiteraard is een zeer goed kennis van netwerkprotocollen van cruciaal belang.
 Neem volgende vergelijking: Een CT-scan uitvoeren is relatief eenvoudig handeling, de verkregen informatie correct analyseren is daarentegen een ander paar mouwen.
 
 Op het Internet zijn er verschillende bronnen voor PCAP-bestanden beschikbaar:
-- https://gitlab.com/wireshark/wireshark/-/wikis/SampleCaptures
-- https://packetlife.net/captures/
-- https://www.netresec.com/?page=PcapFiles
+- [Wireshark](https://gitlab.com/wireshark/wireshark/-/wikis/SampleCaptures)
+- [PacketLife] (https://packetlife.net/captures)
+- [NetResec] (https://www.netresec.com/?page=PcapFiles)
 - ...
 
 Aan de hand van deze bestanden kan men verschillende protocollen bestuderen.  
