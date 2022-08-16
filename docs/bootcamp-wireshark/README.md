@@ -46,26 +46,29 @@ Bekijk onderstaande video's en voer de stappen gelijktijdig uit op uw toestel.
 Vanaf nu kunnen we ons persoonlijk profiel verder aanpassen aan onze wensen.
 
 Aan de hand van onderstaande oefening worden basishandelingen uitgelegd.
-Bekijk onderstaande video en voer de stappen gelijktijdig uit op uw toestel.
+Bekijk onderstaande video en voer de stappen gelijktijdig uit op uw toestel.  
 
 
 ![OEFENING](./assets/OEFENING.png)
-### Oefening 2:
+Oefening 2:
 
 [Video - KOLOM.MKV](https://opleiding-cybersecurity.be/KOLOM.mkv)  
 [Bestand - KOLOM.PCAPng](https://opleiding-cybersecurity.be/Kolom.pcapng)  
 
+
 ![OEFENING](./assets/OEFENING.png)
-### Oefening 3: 
+Oefening 3: 
 
 [Video - COLOR.MKV](https://opleiding-cybersecurity.be/COLOR.mkv)  
-[Bestand - COLOR.PCAPng](https://opleiding-cybersecurity.be/Color.pcapng) 
+[Bestand - COLOR.PCAPng](https://opleiding-cybersecurity.be/Color.pcapng)  
+
 
 ![OEFENING](./assets/OEFENING.png)
 ### Oefening 4:
 
 [Video - DISPLAY1.MKV](https://opleiding-cybersecurity.be/DISPLAY1.mkv)  
-[Bestand - DISPLAY1.PCAPng](https://opleiding-cybersecurity.be/Display1.pcapng)  
+[Bestand - DISPLAY1.PCAPng](https://opleiding-cybersecurity.be/Display1.pcapng)   
+
 
 ![OEFENING](./assets/OEFENING.png)
 ### Oefening 5:
