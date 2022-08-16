@@ -37,8 +37,6 @@ Let op: Met Wireshark kan men enkel zaken vaststellen. Men kan geen problemen op
 
 Aan de hand van enkele oefeningen zullen we de meest courante handelingen overlopen. 
 
-
-
 Vooraleer we starten met deze oefening zullen we een nieuw profiel aanmaken.
 Daarna zullen we enkele instellingen aanpassen die zullen helpen efficiënter te werken.
 Bekijk onderstaande video's en voer de stappen gelijktijdig uit op uw toestel.
@@ -47,13 +45,21 @@ Bekijk onderstaande video's en voer de stappen gelijktijdig uit op uw toestel.
 
 Vanaf nu kunnen we ons persoonlijk profiel verder aanpassen aan onze wensen.
 
-![OEFENING](./assets/OEFENING.png)
-
 Aan de hand van onderstaande oefening worden basishandelingen uitgelegd.
 Bekijk onderstaande video en voer de stappen gelijktijdig uit op uw toestel.
+
+### Oefening 2:
+
+![OEFENING](./assets/OEFENING.png)
 
 [Bestand - KOLOM.PCAPng](https://opleiding-cybersecurity.be/Kolom.pcapng)  
 
 [Video - KOLOM.PCAPng](https://opleiding-cybersecurity.be/KOLOM.mkv)  
 
+### Oefening 3:
 
+![OEFENING](./assets/OEFENING.png)
+
+[Bestand - DISPLAY1.PCAPng](https://opleiding-cybersecurity.be/Display1.pcapng)  
+
+[Video - DISPLAY1.PCAPng](https://opleiding-cybersecurity.be/DISPLAY1.mkv)  
