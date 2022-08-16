@@ -41,13 +41,13 @@ Aan de hand van enkele oefeningen zullen we de meest courante handelingen overlo
 
 Vooraleer we starten met deze oefening zullen we een nieuw profiel aanmaken.
 Daarna zullen we enkele instellingen aanpassen die zullen helpen efficiënter te werken.
-Bekijk onderstaande video en voer de stappen gelijktijdig uit op uw toestel.
+Bekijk onderstaande video's en voer de stappen gelijktijdig uit op uw toestel.
 
 [Video - Aanmaken van een eigen profiel](https://opleiding-cybersecurity.be/PROFIEL.mkv)
 
 Vanaf nu kunnen we ons persoonlijk profiel verder aanpassen aan onze wensen.
 
-![OEFENING2](./assets/OEFENING2.png)
+![OEFENING](./assets/OEFENING.png)
 
 Aan de hand van onderstaande oefening worden basishandelingen uitgelegd.
 Bekijk onderstaande video en voer de stappen gelijktijdig uit op uw toestel.
