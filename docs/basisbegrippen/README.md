@@ -88,6 +88,8 @@ Draadloze netwerken (IEEE 802.11) capteren is niet evident. Zo moeten de WLAN ad
 
 Daarnaast maakt het gebruik van MIMO (Multiple-Input and Multiple-Output) de captatie ook complexer. Het gebruik van meerdere antennes is hierbij noodzakelijk. Dit geldt vanaf Wi-Fi4 (IEEE 802.11n).
 
+![WLAN](./assets/WLAN.jpg) 
+
 Praktische informatie kan men vinden op onderstaande links:
 
 [Lab WLAN Sniffing](https://www.tomcordemans.net/wireless-sniffing/)
