@@ -90,9 +90,9 @@ Daarnaast maakt het gebruik van MIMO (Multiple-Input and Multiple-Output) de cap
 
 Praktische informatie kan men vinden op onderstaande links:
 
-[Lab WLAN Sniffing] (https://www.tomcordemans.net/wireless-sniffing/)
+[Lab WLAN Sniffing](https://www.tomcordemans.net/wireless-sniffing/)
 
-[Lab WLAN Capturing] (https://www.tomcordemans.net/wireless-capturing/)
+[Lab WLAN Capturing](https://www.tomcordemans.net/wireless-capturing/)
 
 Opmerking: Indien het netwerkverkeer zowel op het bekabeld als op het draadloos netwerk voorkomt, opteer dan zeker om op het bekabeld netwerk te capteren.
 
