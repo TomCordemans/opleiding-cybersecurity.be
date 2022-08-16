@@ -64,6 +64,15 @@ Bekijk onderstaande video en voer de stappen gelijktijdig uit op uw toestel.
 
 [Video - DISPLAY1.PCAPng](https://opleiding-cybersecurity.be/DISPLAY1.mkv)
 
+![OEFENING](./assets/OEFENING.png)
+
 ### Oefening 4:
+
+Probeer te bepalen hoeveel frames gerelateerd zijn aan netwerkverkeer van YouTube.
+
+[Bestand - DISPLAY2.PCAPng](https://opleiding-cybersecurity.be/Display2.pcapng)
+
+Het antwoord is te vinden in "Capture file comments".
+
 
 
