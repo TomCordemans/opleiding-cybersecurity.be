@@ -74,8 +74,17 @@ Probeer te bepalen hoeveel frames gerelateerd zijn aan netwerkverkeer van YouTub
 Het antwoord is te vinden in "Capture file comments".  
 
 
+![OEFENING](./assets/OEFENING.png)
+Oefening 6:   
+[Video - GEOIP.MKV](https://opleiding-cybersecurity.be/GEOIP.mkv)  
+[Bestand - DISPLAY1.PCAPng](https://opleiding-cybersecurity.be/Display1.pcapng)  
 
 
+![OEFENING](./assets/OEFENING.png)
+Oefening 7:   
+[Video - EXTRACT.MKV](https://opleiding-cybersecurity.be/EXTRACT.mkv)   
+[Bestand - DISPLAY1.PCAPng](https://opleiding-cybersecurity.be/Display1.pcapng)  
+[Bestand - COLOR.PCAPng](https://opleiding-cybersecurity.be/Color.pcapng)  
 
 
 
