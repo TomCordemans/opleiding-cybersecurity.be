@@ -48,24 +48,22 @@ Vanaf nu kunnen we ons persoonlijk profiel verder aanpassen aan onze wensen.
 Aan de hand van onderstaande oefening worden basishandelingen uitgelegd.
 Bekijk onderstaande video en voer de stappen gelijktijdig uit op uw toestel.
 
-![OEFENING](./assets/OEFENING.png)
 
+![OEFENING](./assets/OEFENING.png)
 ### Oefening 2:
 
+[Video - KOLOM.MKV](https://opleiding-cybersecurity.be/KOLOM.mkv)  
 [Bestand - KOLOM.PCAPng](https://opleiding-cybersecurity.be/Kolom.pcapng)  
 
-[Video - KOLOM.PCAPng](https://opleiding-cybersecurity.be/KOLOM.mkv)  
 
 ![OEFENING](./assets/OEFENING.png)
-
 ### Oefening 3:
 
+[Video - DISPLAY1.MKV](https://opleiding-cybersecurity.be/DISPLAY1.mkv)
 [Bestand - DISPLAY1.PCAPng](https://opleiding-cybersecurity.be/Display1.pcapng)  
 
-[Video - DISPLAY1.PCAPng](https://opleiding-cybersecurity.be/DISPLAY1.mkv)
 
 ![OEFENING](./assets/OEFENING.png)
-
 ### Oefening 4:
 
 Probeer te bepalen hoeveel frames gerelateerd zijn aan netwerkverkeer van YouTube.
