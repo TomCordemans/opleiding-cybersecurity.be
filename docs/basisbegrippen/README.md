@@ -11,6 +11,8 @@ Het capteren en analyseren van netwerkverkeer zijn echter twee onafhankelijke ta
 
 ### Hoe en waar capteren?
 
+#### Een bekabeld netwerk
+
 Bij het capteren van netwerkverkeer wordt een kopie genomen van alle netwerkverkeer die zich verplaatst over een bepaalde verbinding. De belangrijkste vereisten zijn de accuraatheid en de de volledigheid van de captatie. Daarnaast mag het capteren geen invloed hebben op het netwerk.  
 
 Standaard verwerkt een netwerkkaart enkel specifieke frames.
@@ -79,6 +81,20 @@ Uiteraard zijn bepaalde locaties zeer relevant:
 
 Opmerking:  
 Het capteren van netwerkverkeer heeft uiteraard ook consequenties. De nood aan opslagcapaciteit en respect voor de huidige regelgeving.  
+
+#### Een draadloos netwerk
+
+Draadloze netwerken (IEEE 802.11) capteren is niet evident. Zo moeten de WLAN adapters in monitor mode kunnen werken.Kort door de bocht kunnen we zeggen dat bij monitor mode alle frames gecapteerd worden zonder een associatie aan te gaan met een access point.
+
+Daarnaast maakt het gebruik van MIMO (Multiple-Input and Multiple-Output) de captatie ook complexer. Het gebruik van meerdere antennes is hierbij noodzakelijk. Dit geldt vanaf Wi-Fi4 (IEEE 802.11n).
+
+Praktische informatie kan men vinden op onderstaande links:
+
+[Lab WLAN Sniffing] (https://www.tomcordemans.net/wireless-sniffing/)
+
+[Lab WLAN Capturing] (https://www.tomcordemans.net/wireless-capturing/)
+
+
 
 ### PCAP of PCAPng
 
