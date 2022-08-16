@@ -36,8 +36,7 @@ Meer info omtrent dit model vindt u op volgende [link](https://www.lockheedmarti
 
 
 ![OEFENING](./assets/OEFENING.png)
-### Oefening 1:
-
+Oefening 1:   
 Bij welke onderdelen van het Cyber Kill Chain Model kan er netwerkverkeer gegenereerd worden? Probeer ook een omschrijving te geven van het netwerkverkeer.
 
 - Reconnaissance:
