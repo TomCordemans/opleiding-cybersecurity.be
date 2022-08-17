@@ -24,7 +24,7 @@ In deze oefening importen we een security profiel in Wireshark. Hierbij maken re
 
 ![OEFENING](./assets/OEFENING.png)
 Oefening 9:  
-Probeer aan de hand van de verschillende profielen (default versus SecurityV5) de anomalie in een specifiek frame te vinden.
+Probeer aan de hand van de verschillende profielen (default versus SecurityV5) de anomalie in een specifiek frame te vinden.  
 [Video - CHECK-ICMP.MKV](https://opleiding-cybersecurity.be/CHECK-ICMP.mkv)  
 [Bestand - CHECK-ICMP.PCAPng](https://opleiding-cybersecurity.be/CHECK-ICMP.PCAPng) 
 
