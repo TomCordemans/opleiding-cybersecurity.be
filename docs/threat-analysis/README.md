@@ -97,6 +97,20 @@ Voorbeelden zijn:
 
 ## Casus 1
 
+In deze casus bespreken Remcos RAT. Remcos is acroniem voor *Remote Control & Surveillance* en RAT staat voor *Remote Access Trojan*.   
+
+![STOP](./assets/STOP.png)
+
+Het captatiebestand is afkomstig van de website:   
+[MALWARE-TRAFFIC-ANALYSIS.NET](https://www.malware-traffic-analysis.net/)   
+In deze casus gebruiken we **2022-01-04 -- Recmos RAT infection from Excel file with macros**  
+
+
+
+
+
+
+
 
 
 
