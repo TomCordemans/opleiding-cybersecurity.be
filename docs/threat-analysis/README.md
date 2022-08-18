@@ -7,7 +7,7 @@ title: Threat Analysis
 Aangezien netwerkverkeer malware kan bevatten, is er steeds een risico aanwezig. Een volledig gescheiden omgeving is daarom aangewezen. Daarnaast wordt er vaak ook een niet-Microsoft besturingssysteem aanbevolen. Zo verkleinen we de kans op besmetting van het systeem en verspreiding via het netwerk.   
 
 Een mogelijke werkwijze is het gebruik maken van een virtuele machine.  
-[Kali Linux](https://www.kali.org/get-kali/#kali-virtual-machines).
+[Kali Linux](https://www.kali.org/get-kali/#kali-virtual-machines)
 
 ## Wireshark tweaken  
 
@@ -28,4 +28,9 @@ Probeer aan de hand van de verschillende profielen (default versus SecurityV5) d
 [Video - CHECK-ICMP.MKV](https://opleiding-cybersecurity.be/CHECK-ICMP.mkv)  
 [Bestand - CHECK-ICMP.PCAPng](https://opleiding-cybersecurity.be/CHECK-ICMP.PCAPng) 
 
+## Controle op verdachte bestanden
 
+Eenmaal een bestand uit een captatie wordt gehaald, is het meer dan wenselijk dit bestand te controleren. Hierbij kan men gebruik maken van verschillende websites:
+[VirusTotal](https://www.virustotal.com/gui/home/search)
+[Talos](https://www.talosintelligence.com/talos_file_reputation)
+[URLhaus](https://urlhaus.abuse.ch/browse/)
