@@ -74,8 +74,28 @@ bf46477937c830aef1203859f55e935c356b79052e57ae6c6d0f5ca2ca05fb89  Test.jpg
 └─$ 
 ```  
 De hash kan nu aangeboden worden aan VirusTotal of andere "file reputation" diensten.  
-
+Als samenwatting onderstaande video:  
 [Video - EICAR.MKV](https://opleiding-cybersecurity.be/EICAR.mkv)  
+
+## Indicators of compromise (IoC)
+
+Malware kunnen we gaan identificeren aan de hand van bepaalde indicatoren. (IoC)   
+Voorbeelden zijn:
+- Ongewone DNS lookups  
+- Verdachte bestanden  
+- Verdachte processen  
+- Malafide IP-adressen   
+- Malafide domeinnamen   
+- Veelvuldig benaderen van een specifiek bestand   
+- Verdachte handelingen op een systeem door een geprivilegieerd gebruikersaccount   
+- Onverwachte software updates   
+- Dataverkeer op niet-courante poorten
+- Hashes van bestanden die verwijzen naar malware
+- Misbruik van netwerkprotocollen
+- Een groot aantal mislukte aanmeldpogingen
+- ...
+
+## Casus 1
 
 
 
