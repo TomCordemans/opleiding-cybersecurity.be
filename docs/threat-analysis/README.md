@@ -37,22 +37,28 @@ Eenmaal een bestand uit een captatie wordt gehaald, is het meer dan wenselijk di
 
 Om datalekken te vermijden is het aangewezen om gebruik te maken van een hash. Daarnaast is een hash meestal zeer klein t.o.v. van het originele bestand.
 
-De werkwijze via PowerShell:
-`C:\Users\Tom\Desktop> Get-ChildItem .\Test.jpg`
-` `
-`    Directory: C:\Users\Tom\Desktop`
-` `
-`Mode                 LastWriteTime         Length Name`
-`----                 -------------         ------ ----`
-`-a----        27/07/2022     10:55        4458380 Test.jpg`
-` `
-`C:\Users\Tom\Desktop> Get-FileHash .\Test.jpg`
-` `
-`Algorithm       Hash                                                                   Path`
-`---------       ----                                                                   ----`
-`SHA256          BF46477937C830AEF1203859F55E935C356B79052E57AE6C6D0F5CA2CA05FB89       C:\Users\Tom\Desktop\Test.jpg`
-` `
-`C:\Users\Tom\Desktop>`   
+De werkwijze via PowerShell:   
+```
+C:\Users\Tom\Desktop> Get-ChildItem .\Test.jpg
+
+
+    Directory: C:\Users\Tom\Desktop
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        27/07/2022     10:55        4458380 Test.jpg
+
+
+C:\Users\Tom\Desktop> Get-FileHash .\Test.jpg
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+SHA256          BF46477937C830AEF1203859F55E935C356B79052E57AE6C6D0F5CA2CA05FB89       C:\Users\Tom\Desktop\Test.jpg
+
+
+C:\Users\Tom\Desktop>
+```
 
 De werkwijze via Linux:
 
