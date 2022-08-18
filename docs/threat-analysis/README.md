@@ -103,7 +103,14 @@ In deze casus bespreken Remcos RAT. Remcos is acroniem voor *Remote Control & Su
 
 Het captatiebestand is afkomstig van de website:   
 [MALWARE-TRAFFIC-ANALYSIS.NET](https://www.malware-traffic-analysis.net/)   
-In deze casus gebruiken we **2022-01-04 -- Recmos RAT infection from Excel file with macros**  
+In deze casus gebruiken we **2022-01-04 -- Recmos RAT infection from Excel file with macros**
+Download het bestand *2022-01-04-Remcos-RAT-infection-traffic.pcap.zip*
+
+![REMCOS_Download](./assets/REMCOS_Download.png)   
+
+Zoals vermeld is het ZIP-bestand beveiligd. Het wachtwoord is [hier](https://www.malware-traffic-analysis.net/about.html) te vinden. 
+
+
 
 
 
