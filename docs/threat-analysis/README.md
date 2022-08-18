@@ -59,8 +59,21 @@ SHA256          BF46477937C830AEF1203859F55E935C356B79052E57AE6C6D0F5CA2CA05FB89
 
 C:\Users\Tom\Desktop>
 ```
-
 De werkwijze via Linux:
+
+```
+┌──(kali㉿kali)-[~/Desktop]
+└─$ ls Test.jpg -l 
+-rw-rw-rw- 1 kali kali 4458380 Aug 18 08:24 Test.jpg
+                                                                                                                
+┌──(kali㉿kali)-[~/Desktop]
+└─$ sha256sum Test.jpg 
+bf46477937c830aef1203859f55e935c356b79052e57ae6c6d0f5ca2ca05fb89  Test.jpg
+                                                                                                                
+┌──(kali㉿kali)-[~/Desktop]
+└─$ 
+```  
+De hash kan nu aangeboden worden aan VirusTotal of andere "file reputation" diensten.
 
 
 
