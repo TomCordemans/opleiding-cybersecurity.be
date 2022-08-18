@@ -110,7 +110,14 @@ Download het bestand *2022-01-04-Remcos-RAT-infection-traffic.pcap.zip*
 
 ![REMCOS_Download](./assets/REMCOS_Download.png)   
 
-Zoals vermeld is het ZIP-bestand beveiligd. Het wachtwoord is [hier](https://www.malware-traffic-analysis.net/about.html) te vinden. 
+Zoals vermeld is het ZIP-bestand beveiligd. Het wachtwoord is [hier](https://www.malware-traffic-analysis.net/about.html) te vinden.
+
+De context van deze casus:   
+Een gebruiker heeft vanaf zijn computer (10.1.4.101) op 4 januari 2022 (21u24) een mail geopend in Outlook die een Excel-bestand (Payment Remettande Advice.xlsb) bevatte. De gebruiker heeft daarna het Excel-bestand met macro geopend. Via deze macro werd een verbinding met Onderdrive gemaakt.
+
+Open het bestand en controleer of het security profiel actief is.
+
+![REMCOS](./assets/REMCOS.png)
 
 
 
