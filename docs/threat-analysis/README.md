@@ -73,7 +73,12 @@ bf46477937c830aef1203859f55e935c356b79052e57ae6c6d0f5ca2ca05fb89  Test.jpg
 ┌──(kali㉿kali)-[~/Desktop]
 └─$ 
 ```  
-De hash kan nu aangeboden worden aan VirusTotal of andere "file reputation" diensten.
+De hash kan nu aangeboden worden aan VirusTotal of andere "file reputation" diensten.  
+
+[Video - EICAR.MKV](https://opleiding-cybersecurity.be/EICAR.mkv)  
+
+
+
 
 
 
