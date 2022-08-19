@@ -137,25 +137,33 @@ Een DNS-response afkomstig van de interne DNS-server. Met als antwoord onedrive.
 
 ![WHOIS](./assets/WHOIS.png)   
 
+*Tip: In het Security profiel kan men gebruik maken van een Filter Button die enkel netwerkverkeer naar externe DNS-servers zal tonen.Zo krijgt men zeer snel een beeld op eventueel ongewenst netwerkverkeer.*
+
+![DNSFILTERBUTTONWHOIS](./assets/DNSFILTERBUTTON.png)  
+
 ![REMCOSFRAME6](./assets/REMCOSFRAME6.png)   
 
 **Frame 6:**
 
-Een HTTP GET request naar http://onedrive.live.com/download?cid=64F8294A00286885&resid=64F8294A00286885%21770&authkey=ABI3zrc6BsVUKxU.   
+Een HTTP GET request naar *http://onedrive.live.com/download?cid=64F8294A00286885&resid=64F8294A00286885%21770&authkey=ABI3zrc6BsVUKxU*.   
 
 Belangrijke vragen zijn:
 - Is onedrive.live.com betrouwbaar?
 - Is er een User-Agent aanwezig?  
 
-Om de eerste vraag te beantwoorden, maken we gebruik van verschillende websites zoals:
+Om de eerste vraag te beantwoorden, maakt men gebruik van verschillende websites zoals:
 - [VirusTotal](https://www.virustotal.com/gui/home/url)  
 - [Talos](https://www.talosintelligence.com/)   
-- [URLhaus](https://urlhaus.abuse.ch/browse/)   
+- [URLhaus](https://urlhaus.abuse.ch/browse/)  
+
 Men kan concluderen dat deze website legitiem is, maar dat Microsoft OneDrive ook gebruikt wordt om malware te verspreiden.
 
-Op de tweede vraag moeten we negatief antwoorden. Dit is verdacht. Wanneer men een website bezoekt via een web browser (Google Chrome, Firefox, ...) bevat de http GET request altijd een User-Agent. Onderstaande figuur als voorbeeld.
+Op de tweede vraag moeten men negatief antwoorden. Dit is verdacht. Wanneer men een website bezoekt via een web browser (Google Chrome, Firefox, ...) bevat de HTTP GET request altijd een User-Agent.   
+Onderstaande figuur als voorbeeld.  
 
-![USERAGENT](./assets/USERAGENT.png) 
+![USERAGENT](./assets/USERAGENT.png)   
+
+
 
 
 
