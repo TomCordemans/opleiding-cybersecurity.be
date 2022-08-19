@@ -121,7 +121,9 @@ Open het bestand en controleer of het security profiel actief is.
 
 Hieronder een mogelijke werkwijze om de casus te analyseren.   
 
-Aan de hand van screenshots en bijhorende uitleg op frame niveau wordt de volledige captatie gedetailleerd besproken.  
+Aan de hand van screenshots en bijhorende uitleg op frame niveau wordt de volledige captatie gedetailleerd besproken.
+
+### Onderdeel 1 van de casus   
 
 ![REMCOSDNS](./assets/REMCOSDNS.png)   
 
@@ -139,7 +141,9 @@ Een DNS-response afkomstig van de interne DNS-server. Met als antwoord onedrive.
 
 *Tip: In het Security profiel kan men gebruik maken van een Filter Button die enkel netwerkverkeer naar externe DNS-servers zal tonen. Zo krijgt men zeer snel een beeld op eventueel ongewenst netwerkverkeer.*   
 
-![DNSFILTERBUTTON](./assets/DNSfilterbutton.png)   
+![DNSFILTERBUTTON](./assets/DNSfilterbutton.png)    
+
+### Onderdeel 2 van de casus   
 
 ![REMCOSFRAME6](./assets/REMCOSFRAME6.png)   
 
@@ -163,10 +167,13 @@ Onderstaande figuur als voorbeeld.
 
 ![USERAGENT](./assets/USERAGENT.png)   
 
-
-
+Om meer informatie bekomen omtrent specifieke User-Agents, kan men gebruik maken van [URLhaus](https://urlhaus.abuse.ch/browse/)   
 
 ![REMCOSFRAME8](./assets/REMCOSFRAME8.png)   
+
+**Frame 8:**   
+
+
 
 
 
