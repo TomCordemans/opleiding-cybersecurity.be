@@ -275,6 +275,17 @@ Volgende vragen opportuun:
 - Is atcn.jpg werkelijk een JPEG?
 - Is er een User-Agent aanwezig?
 
-Het antwoord op de eerste vraag bekomt men door het IPv4-adres in te geven bij enkele *Threat Intelligence* websites. De resultaten kunnen zeker tegenstrijdig zijn. Daarom is het aangewezen meerdere websites te raadplegen.   
+Het antwoord op de eerste vraag bekomt men door het IPv4-adres (64.188.19.241) in te geven bij enkele *Threat Intelligence* websites. De resultaten kunnen zeker tegenstrijdig zijn. Daarom is het aangewezen meerdere websites te raadplegen.  
 
-![REMCOSIP](./assets/REMCOSIP.png)
+![REMCOSIP](./assets/REMCOSIP.png)   
+
+Na onderzoek blijkt dat het IPv4-adres (64.188.19.241) ooit gebruikt werd voor het verspreiden van malware.   
+
+Het antwoord op de tweede vraag is meer principieel. Mensen gebruiken eerder domeinnamen dan IPv4-adressen in een webbrowser. Onze waakzaamheid zal dus verhogen bij een dergelijke indicatie.   
+
+Het antwoord op de derde vraag kan via verschillende opties gevonden worden.   
+Mogelijke werkwijzen zijn:
+- Follow TCP stream
+- Het exporteren van het object
+- Color rules
+
