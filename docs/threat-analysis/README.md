@@ -119,7 +119,9 @@ Open het bestand en controleer of het security profiel actief is.
 
 ![REMCOS](./assets/REMCOS.png)
 
-Hieronder een mogelijke werkwijze om de casus te analyseren.
+Hieronder een mogelijke werkwijze om de casus te analyseren.   
+
+Aan de hand van screenshots en bijhorende uitleg op frame niveau wordt de volledige captatie gedetailleerd besproken.  
 
 ![REMCOSDNS](./assets/REMCOSDNS.png)   
 
