@@ -139,7 +139,7 @@ Een DNS-response afkomstig van de interne DNS-server. Met als antwoord onedrive.
 
 *Tip: In het Security profiel kan men gebruik maken van een Filter Button die enkel netwerkverkeer naar externe DNS-servers zal tonen. Zo krijgt men zeer snel een beeld op eventueel ongewenst netwerkverkeer.*   
 
-![DNSFILTERBUTTONWHOIS](./assets/DNSFILTERBUTTON.png)   
+![DNSFILTERBUTTON](./assets/DNSfilterbutton.png)   
 
 ![REMCOSFRAME6](./assets/REMCOSFRAME6.png)   
 
@@ -164,6 +164,9 @@ Onderstaande figuur als voorbeeld.
 ![USERAGENT](./assets/USERAGENT.png)   
 
 
+
+
+![REMCOSFRAME8](./assets/REMCOSFRAME8.png)   
 
 
 
