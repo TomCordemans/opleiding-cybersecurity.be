@@ -121,8 +121,7 @@ Open het bestand en controleer of het security profiel actief is.
 
 Hieronder een mogelijke werkwijze om de casus te analyseren.
 
-![REMCOSDNS](./assets/REMCOSDNS.png)
-
+![REMCOSDNS](./assets/REMCOSDNS.png)   
 
 **Frame 1:**   
 Een DNS-query afkomstig van de computer van de gebruiker (10.1.4.101) naar de interne DNS-server (10.1.14.1) voor de domeinnaam onedrive.live.com.   
