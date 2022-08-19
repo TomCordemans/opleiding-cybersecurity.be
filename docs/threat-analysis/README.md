@@ -133,7 +133,7 @@ Een DNS-query afkomstig van de computer van de gebruiker (10.1.4.101) naar de in
 **Frame 2:**   
 Een DNS-response afkomstig van de interne DNS-server. Met als antwoord onedrive.live.com komt overeen met het publiek IPv4-adres 13.107.42.13.
 
-*Opmerking: Indien men twijfelt aan de reputatie van een publiek IPv4-adres kan men gebruik maken van verschillende websites. Als voorbeeld [WHO.IS](https://who.is/)*.  
+*Opmerking: Indien men twijfelt aan de reputatie van een publiek IPv4-adres kan men gebruik maken van verschillende websites. Enkele voorbeelden zijn [WHO.IS](https://who.is/) of [Talos](https://www.talosintelligence.com/)*.  
 
 ![WHOIS](./assets/WHOIS.png)   
 
@@ -146,5 +146,17 @@ Een HTTP GET request naar http://onedrive.live.com/download?cid=64F8294A00286885
 Belangrijke vragen zijn:
 - Is onedrive.live.com betrouwbaar?
 - Is er een User-Agent aanwezig?  
+
+Om de eerste vraag te beantwoorden, maken we gebruik van verschillende websites zoals:
+- [VirusTotal](https://www.virustotal.com/gui/home/url)  
+- [Talos](https://www.talosintelligence.com/)   
+- [URLhaus](https://urlhaus.abuse.ch/browse/)   
+Men kan concluderen dat deze website legitiem is, maar dat Microsoft OneDrive ook gebruikt wordt om malware te verspreiden.
+
+Op de tweede vraag moeten we negatief antwoorden. Dit is verdacht. Wanneer men een website bezoekt via een web browser (Google Chrome, Firefox, ...) bevat de http GET request altijd een User-Agent. Onderstaande figuur als voorbeeld.
+
+![USERAGENT](./assets/USERAGENT.png) 
+
+
 
 
