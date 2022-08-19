@@ -191,7 +191,46 @@ Een HTTPS-verbinding is versleuteld. Toch is er nog voldoende informatie beschik
 
 ![REMCOSFRAME18](./assets/REMCOSFRAME18.png)   
 
-**Frame 18:**  
+**Frame 18:**
+
+Hier vinden we de *Server Hello* boodschap. Naast de gebruikte Cipher Suite vindt men hier alle informatie omtrent de certificaten terug. 
+Belangrijke velden zijn:   
+```
+issuer: rdnSequence (0)
+    rdnSequence: 3 items (id-at-commonName=Microsoft RSA TLS CA 01,id-at-organizationName=Microsoft Corporation,id-at-countryName=US)
+        RDNSequence item: 1 item (id-at-countryName=US)
+            RelativeDistinguishedName item (id-at-countryName=US)
+                Id: 2.5.4.6 (id-at-countryName)
+                CountryName: US
+        RDNSequence item: 1 item (id-at-organizationName=Microsoft Corporation)
+            RelativeDistinguishedName item (id-at-organizationName=Microsoft Corporation)
+                Id: 2.5.4.10 (id-at-organizationName)
+                DirectoryString: printableString (1)
+                    printableString: Microsoft Corporation
+        RDNSequence item: 1 item (id-at-commonName=Microsoft RSA TLS CA 01)
+            RelativeDistinguishedName item (id-at-commonName=Microsoft RSA TLS CA 01)
+                Id: 2.5.4.3 (id-at-commonName)
+                DirectoryString: printableString (1)
+                    printableString: Microsoft RSA TLS CA 01
+validity
+    notBefore: utcTime (0)
+        utcTime: 2021-08-13 07:38:24 (UTC)
+    notAfter: utcTime (0)
+        utcTime: 2022-08-13 07:38:24 (UTC)
+subject: rdnSequence (0)
+    rdnSequence: 1 item (id-at-commonName=onedrive.com)
+        RDNSequence item: 1 item (id-at-commonName=onedrive.com)
+            RelativeDistinguishedName item (id-at-commonName=onedrive.com)
+                Id: 2.5.4.3 (id-at-commonName)
+                DirectoryString: printableString (1)
+                    printableString: onedrive.com
+```   
+Na onderzoek kunnen we stellen dat het certificaat geldig was op 4 januari 2022.
+
+### Onderdeel 4 van de casus   
+
+
+
 
 
 
