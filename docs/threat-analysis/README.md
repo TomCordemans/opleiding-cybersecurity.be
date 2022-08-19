@@ -133,21 +133,18 @@ Een DNS-query afkomstig van de computer van de gebruiker (10.1.4.101) naar de in
 **Frame 2:**   
 Een DNS-response afkomstig van de interne DNS-server. Met als antwoord onedrive.live.com komt overeen met het publiek IPv4-adres 13.107.42.13.
 
-*opmerking: Indien men twijfelt aan de reputatie van een publiek IPv4-adres kan men gebruik maken van verschillende websites. Als voorbeeld [WHO.IS](https://who.is/)*.  
+*Opmerking: Indien men twijfelt aan de reputatie van een publiek IPv4-adres kan men gebruik maken van verschillende websites. Als voorbeeld [WHO.IS](https://who.is/)*.  
 
 ![WHOIS](./assets/WHOIS.png)   
 
+![REMCOSFRAME6](./assets/REMCOSFRAME6.png)   
 
+**Frame 6:**
 
+Een HTTP GET request naar http://onedrive.live.com/download?cid=64F8294A00286885&resid=64F8294A00286885%21770&authkey=ABI3zrc6BsVUKxU.   
 
-
-
-
-
-
-
-
-
-
+Belangrijke vragen zijn:
+- Is onedrive.live.com betrouwbaar?
+- Is er een User-Agent aanwezig?  
 
 
