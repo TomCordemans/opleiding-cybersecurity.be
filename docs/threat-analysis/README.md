@@ -242,7 +242,22 @@ We moeten opnieuw dezelfde vragen stellen:
 
 Na onderzoek kunnen we stellen dat de domeinnaam *diufxw.sn.files.1drv.com* betrouwbaar is en het bijhorend certificaat correct en geldig was op 4 januari 2022.
 
+### Onderdeel 5 van de casus   
 
+![REMCOSFRAME52](./assets/REMCOSFRAME52.png)
 
+**Frame 52:**   
 
+De HTTPS-connectie uit onderdeel 4 wordt beëindigd door de computer van de gebruiker.   
 
+*Opmerking: Waarom staat dit in het rood?*
+*[Coloring Rule Name: TCP RST]*
+*[Coloring Rule String: tcp.flags.reset eq 1]*
+*Een TCP-RST wordt vaak gebruikt om een verbinding snel af te breken. Het zorgt voor minder overhead dan bij een TCP-FIN.*
+*In de huidige context is dit verdacht.*
+
+**Frame 53:**   
+De HTTPS-connectie uit onderdeel 3 wordt beëindigd door de computer van de gebruiker.  
+
+**Frame 54:**
+De HTTP-connectie uit onderdeel 2 wordt beëindigd door de computer van de gebruiker.  
