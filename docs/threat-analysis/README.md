@@ -167,11 +167,32 @@ Onderstaande figuur als voorbeeld.
 
 ![USERAGENT](./assets/USERAGENT.png)   
 
-Om meer informatie bekomen omtrent specifieke User-Agents, kan men gebruik maken van [URLhaus](https://urlhaus.abuse.ch/browse/)   
+Om meer informatie bekomen omtrent specifieke User-Agents, kan men gebruik maken van [User-Agents.net](https://user-agents.net/)   
 
 ![REMCOSFRAME8](./assets/REMCOSFRAME8.png)   
 
 **Frame 8:**   
+
+Er volgt een redirection naar *https://onedrive.live.com/download?cid=64F8294A00286885&resid=64F8294A00286885%21770&authkey=ABI3zrc6BsVUKxU*
+
+*Opmerking: Een redirection van HTTP naar HTTPS is zeer courant. Dit is dus niet verdacht.*
+
+### Onderdeel 3 van de casus
+
+![REMCOSFRAME13](./assets/REMCOSFRAME13.png)   
+
+**Frame 13:**   
+
+Een HTTPS-verbinding is versleuteld. Toch is er nog voldoende informatie beschikbaar om een beeld te vormen over de verbinding. Frame 18 bevat de *Client Hello* boodschap. Naast de beschikbare *Cipher Suites* kunnen we ook de domeinnaam achterhalen.
+
+*Tip: Bepaalde velden zitten diep verscholen in de headers. Het is daarom gewenst om cruciale informatie als kolom te visualiseren of via een Filter Button beschikbaar te stellen.
+
+![HTTPSfilterbutton](./assets/HTTPSfilterbutton.png)   
+
+![REMCOSFRAME18](./assets/REMCOSFRAME18.png)   
+
+**Frame 18:**  
+
 
 
 
