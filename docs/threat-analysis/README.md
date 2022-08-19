@@ -135,11 +135,11 @@ Een DNS-response afkomstig van de interne DNS-server. Met als antwoord onedrive.
 
 *Opmerking: Indien men twijfelt aan de reputatie van een publiek IPv4-adres kan men gebruik maken van verschillende websites. Enkele voorbeelden zijn [WHO.IS](https://who.is/) of [Talos](https://www.talosintelligence.com/)*.  
 
-![WHOIS](./assets/WHOIS.png)   
+![WHOIS](./assets/WHOIS.png)  
 
-*Tip: In het Security profiel kan men gebruik maken van een Filter Button die enkel netwerkverkeer naar externe DNS-servers zal tonen.Zo krijgt men zeer snel een beeld op eventueel ongewenst netwerkverkeer.*
+*Tip: In het Security profiel kan men gebruik maken van een Filter Button die enkel netwerkverkeer naar externe DNS-servers zal tonen. Zo krijgt men zeer snel een beeld op eventueel ongewenst netwerkverkeer.*   
 
-![DNSFILTERBUTTONWHOIS](./assets/DNSFILTERBUTTON.png)  
+![DNSFILTERBUTTONWHOIS](./assets/DNSFILTERBUTTON.png)   
 
 ![REMCOSFRAME6](./assets/REMCOSFRAME6.png)   
 
