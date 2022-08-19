@@ -183,9 +183,9 @@ Er volgt een redirection naar *https://onedrive.live.com/download?cid=64F8294A00
 
 **Frame 13:**   
 
-Een HTTPS-verbinding is versleuteld. Toch is er nog voldoende informatie beschikbaar om een beeld te vormen over de verbinding. Frame 18 bevat de *Client Hello* boodschap. Naast de beschikbare *Cipher Suites* kunnen we ook de domeinnaam achterhalen.
+Een HTTPS-verbinding is versleuteld. Toch is er nog voldoende informatie beschikbaar om een beeld te vormen over de verbinding. Frame 18 bevat de *Client Hello* boodschap. Naast de beschikbare *Cipher Suites* kunnen we ook de domeinnaam achterhalen. De domeinnaam is opnieuw *onedrive.live.com*.
 
-*Tip: Bepaalde velden zitten diep verscholen in de headers. Het is daarom gewenst om cruciale informatie als kolom te visualiseren of via een Filter Button beschikbaar te stellen.
+*Tip: Bepaalde velden zitten diep verscholen in de headers. Het is daarom gewenst om cruciale informatie als kolom te visualiseren of via een Filter Button beschikbaar te stellen.*
 
 ![HTTPSfilterbutton](./assets/HTTPSfilterbutton.png)   
 
@@ -193,7 +193,7 @@ Een HTTPS-verbinding is versleuteld. Toch is er nog voldoende informatie beschik
 
 **Frame 18:**
 
-Hier vinden we de *Server Hello* boodschap. Naast de gebruikte Cipher Suite vindt men hier alle informatie omtrent de certificaten terug. 
+Hier vinden we de *Server Hello* boodschap terug. Naast de gebruikte *Cipher Suite* vindt men hier alle informatie omtrent de certificaten terug. 
 Belangrijke velden zijn:   
 ```
 issuer: rdnSequence (0)
@@ -225,14 +225,22 @@ subject: rdnSequence (0)
                 DirectoryString: printableString (1)
                     printableString: onedrive.com
 ```   
-Na onderzoek kunnen we stellen dat het certificaat geldig was op 4 januari 2022.
+Na onderzoek kunnen we stellen dat het bijhorend certificaat correct en geldig was op 4 januari 2022.
 
 ### Onderdeel 4 van de casus   
 
+![REMCOSFRAME31](./assets/REMCOSFRAME31.png)   
 
+**Frame 31:**   
 
+Er werd een nieuwe HTTPS-verbinding naar *diufxw.sn.files.1drv.com* gestart.   
+We moeten opnieuw dezelfde vragen stellen:   
+- Is *diufxw.sn.files.1drv.com* betrouwbaar?
+- Is bijhorend certificaat correct en geldig? 
 
+*Tip: Gebruik dezelfde werkwijze als bij de vorige onderdelen.*
 
+Na onderzoek kunnen we stellen dat de domeinnaam *diufxw.sn.files.1drv.com* betrouwbaar is en het bijhorend certificaat correct en geldig was op 4 januari 2022.
 
 
 
