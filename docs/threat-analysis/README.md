@@ -128,10 +128,17 @@ Aan de hand van screenshots en bijhorende uitleg op frame niveau wordt de volled
 **Frame 1:**   
 Een DNS-query afkomstig van de computer van de gebruiker (10.1.4.101) naar de interne DNS-server (10.1.14.1) voor de domeinnaam onedrive.live.com.   
 
-*Opmerking: Indien men gebruik maakt men van interne DNS-servers is het logisch dat men de computers van de gebruikers enkel laat communiceren met deze interne DNS-servers. Zo beperkt men de kans op misbruik via externe DNS-servers.*    
+*Opmerking: Indien men gebruik maakt van interne DNS-servers is het logisch dat men de computers van de gebruikers enkel laat communiceren met deze interne DNS-servers. Zo beperkt men de kans op misbruik via externe DNS-servers.*    
 
 **Frame 2:**   
-Een DNS-response afkomstig van de interne DNS-server. Met als antwoord onedrive.live.com komt overeen met het IPv4-adres 13.107.42.13.
+Een DNS-response afkomstig van de interne DNS-server. Met als antwoord onedrive.live.com komt overeen met het publiek IPv4-adres 13.107.42.13.
+
+*opmerking: Indien men twijfelt aan de reputatie van een publiek IPv4-adres kan men gebruik maken van verschillende websites. Als voorbeeld [WHO.IS](https://who.is/)*.  
+
+![WHOIS](./assets/WHOIS.png)   
+
+
+
 
 
 
