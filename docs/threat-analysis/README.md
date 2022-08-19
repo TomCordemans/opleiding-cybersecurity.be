@@ -95,7 +95,7 @@ Voorbeelden zijn:
 - Een groot aantal mislukte aanmeldpogingen
 - ...
 
-## Casus 1
+## Casus
 
 In deze casus bespreken Remcos RAT. Remcos is acroniem voor *Remote Control & Surveillance* en RAT staat voor *Remote Access Trojan*.   
 
@@ -261,3 +261,20 @@ De HTTPS-connectie uit onderdeel 3 wordt beëindigd door de computer van de gebr
 
 **Frame 54:**
 De HTTP-connectie uit onderdeel 2 wordt beëindigd door de computer van de gebruiker.  
+
+### Onderdeel 6 van de casus   
+
+![REMCOSFRAME58](./assets/REMCOSFRAME52.png)
+
+**Frame 58:**   
+
+Een HTTP GET request naar *http://64.188.19.241/atcn.jpg*.   
+Volgende vragen opportuun:   
+- Is 64.188.19.241 betrouwbaar?
+- Waarom gebruikt men een IPv4-adres i.p.v. een domeinnaam?
+- Is atcn.jpg werkelijk een JPEG?
+- Is er een User-Agent aanwezig?
+
+Het antwoord op de eerste vraag bekomt men door het IPv4-adres in te geven bij enkele *Threat Intelligence* websites. De resultaten kunnen zeker tegenstrijdig zijn. Daarom is het aangewezen meerdere websites te raadplegen.   
+
+![REMCOSIP](./assets/REMCOSIP.png)
