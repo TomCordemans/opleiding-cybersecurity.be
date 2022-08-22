@@ -362,4 +362,46 @@ Het antwoord op de eerste vraag bekomt men door het IPv4-adres (79.134.225.79) i
 
 Na onderzoek blijkt dat het IPv4-adres (79.134.225.79) niet echt betrouwbaar is.   
 
+De vierde vraag kan men beantwoorden door bijvoorbeeld frame 2604 te onderzoeken. Informatie zoals issuer, validity en subject kan ons helpen bij het het bepalen of het certificaat correct geldig is.  
+
+```
+Frame 2604: 182 bytes on wire (1456 bits), 182 bytes captured (1456 bits)
+Ethernet II, Src: Netgear_b6:93:f1 (20:e5:2a:b6:93:f1), Dst: HewlettP_1c:47:ae (00:08:02:1c:47:ae)
+Internet Protocol Version 4, Src: 79.134.225.79, Dst: 10.1.4.101
+Transmission Control Protocol, Src Port: 10174, Dst Port: 50048, Seq: 1, Ack: 161, Len: 128
+Transport Layer Security
+    TLSv1.3 Record Layer: Handshake Protocol: Server Hello
+        Content Type: Handshake (22)
+        Version: TLS 1.2 (0x0303)
+        Length: 123
+        Handshake Protocol: Server Hello
+            Handshake Type: Server Hello (2)
+            Length: 119
+            Version: TLS 1.2 (0x0303)
+            Random: b4b194e8b92debc9aef40167ebbbe14406b309fa776224c41858b1fb83950001
+            Session ID Length: 0
+            Cipher Suite: TLS_AES_128_GCM_SHA256 (0x1301)
+            Compression Method: null (0)
+            Extensions Length: 79
+            Extension: key_share (len=69)
+                Type: key_share (51)
+                Length: 69
+                Key Share extension
+                    Key Share Entry: Group: secp256r1, Key Exchange length: 65
+                        Group: secp256r1 (23)
+                        Key Exchange Length: 65
+                        Key Exchange: 04f2970c0b296725606ec7a8a133b34dc2744d32fd09474e352b767f46fb157c39657704…
+            Extension: supported_versions (len=2)
+                Type: supported_versions (43)
+                Length: 2
+                Supported Version: TLS 1.3 (0x0304)
+            [JA3S Fullstring: 771,4865,51-43]
+            [JA3S: eb1d94daa7e0344597e756a1fb6e7054]
+```   
+
+Het is duidelijk dat er geen informatie beschikbaar is omtrent het certificaat. Ook dit is verdacht.
+
+### Conclusie van de casus:
+Zonder diepgaande kennis van de verschillende protocollen is het onmogelijk dergelijke aanvallen correct te analyseren. Daarnaast is een specifiek profiel binnen Wireshark essentieel om de efficiëntie te verhogen bij dergelijke analyses. 
+
 
