@@ -264,7 +264,7 @@ De HTTP-connectie uit onderdeel 2 wordt beëindigd door de computer van de gebru
 
 ### Onderdeel 6 van de casus   
 
-![REMCOSFRAME58](./assets/REMCOSFRAME52.png)
+![REMCOSFRAME58](./assets/REMCOSFRAME58.png)
 
 **Frame 58:**   
 
@@ -300,10 +300,39 @@ Ook hier is het duidelijk day atcn.jpg geen JPEG is.
 Een alternatieve manier is werken met een color rule. Deze wordt actief zodra er een match is.
 Zodra de string *.exe* of *This program* aanwezig is, wordt het frame gekleurd.
 
-Het antwoord op de vierde vraag is positief.
+Het antwoord op de vierde vraag is positief.   
 ![REMCOSFRAME58AGENT](./assets/REMCOSFRAME58AGENT.png)   
 ![REMCOSFRAME58AGENT1](./assets/REMCOSFRAME58AGENT1.png)  
 Het resultaat is eerder verdacht. Internet Explorer 11 is een verouderde web browser en wordt zelden nog gebruikt.
 
-**Frame 66:**
+**Frame 66:**   
 De HTTP-connectie wordt beëindigd door de computer van de gebruiker.  
+
+### Onderdeel 7 van de casus  
+
+![REMCOSFRAME70](./assets/REMCOSFRAME70.png)
+
+**Frame 70:**
+Een HTTP GET request naar *http://104.223.119.167/calient.jpg*.   
+Volgende vragen opportuun:   
+1. Is 104.223.119.167 betrouwbaar?
+2. Waarom gebruikt men een IPv4-adres i.p.v. een domeinnaam?
+3. Is calient.jpg werkelijk een JPEG?
+4. Is er een User-Agent aanwezig?
+
+Gebruik dezelfde werkwijze als bij onderdeel 6 van de casus.   
+
+**Frame 2615:**   
+De HTTP-connectie wordt beëindigd door de computer van de gebruiker.  
+
+### Onderdeel 8 van de casus
+
+![REMCOSDNS2](./assets/REMCOSDNS2.png)   
+
+**Frame 1:**   
+Een DNS-query afkomstig van de computer van de gebruiker (10.1.4.101) naar de interne DNS-server (10.1.14.1) voor de domeinnaam shiestynerd.dvrlists.com.   
+
+**Frame 2:**   
+Een DNS-response afkomstig van de interne DNS-server. Met als antwoord shiestynerd.dvrlists.com komt overeen met het publiek IPv4-adres 79.134.225.79.
+
+*Opmerking: Indien men twijfelt aan de reputatie van een publiek IPv4-adres kan men gebruik maken van verschillende websites. Enkele voorbeelden zijn [WHO.IS](https://who.is/) of [Talos](https://www.talosintelligence.com/)*.  
