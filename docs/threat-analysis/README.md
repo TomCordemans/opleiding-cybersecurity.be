@@ -408,6 +408,6 @@ Zonder diepgaande kennis van de verschillende protocollen is het onmogelijk derg
 
 Oefenen baart kunst! Meer oefeningen kan men vinden op [Malware-Traffic-Analysis.NET](https://www.malware-traffic-analysis.net/)
 
-*** BE AWARE PACKETS NEVER LIE ***
+**BE AWARE PACKETS NEVER LIE**
 
 
