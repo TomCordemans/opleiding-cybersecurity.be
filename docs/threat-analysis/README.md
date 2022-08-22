@@ -402,6 +402,12 @@ Transport Layer Security
 Het is duidelijk dat er geen informatie beschikbaar is omtrent het certificaat. Ook dit is verdacht.
 
 ### Conclusie van de casus:
-Zonder diepgaande kennis van de verschillende protocollen is het onmogelijk dergelijke aanvallen correct te analyseren. Daarnaast is een specifiek *CyberSecuirty* profiel binnen Wireshark essentieel om de efficiëntie te verhogen bij dergelijke analyses. 
+Zonder diepgaande kennis van de verschillende protocollen is het onmogelijk dergelijke aanvallen correct te analyseren. Daarnaast is een specifiek *CyberSecuirty* profiel binnen Wireshark essentieel om de efficiëntie te verhogen bij dergelijke analyses.  
+
+## Oefeningen
+
+Oefen baart kunst. Meer oefeningen kan men vinden op [Malware-Traffic-Analysis.NET](https://www.malware-traffic-analysis.net/)
+
+*** BE AWARE PACKETS NEVER LIE ***
 
 
