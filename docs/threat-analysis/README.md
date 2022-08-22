@@ -406,7 +406,7 @@ Zonder diepgaande kennis van de verschillende protocollen is het onmogelijk derg
 
 ## Oefeningen
 
-Oefen baart kunst. Meer oefeningen kan men vinden op [Malware-Traffic-Analysis.NET](https://www.malware-traffic-analysis.net/)
+Oefenen baart kunst! Meer oefeningen kan men vinden op [Malware-Traffic-Analysis.NET](https://www.malware-traffic-analysis.net/)
 
 *** BE AWARE PACKETS NEVER LIE ***
 
