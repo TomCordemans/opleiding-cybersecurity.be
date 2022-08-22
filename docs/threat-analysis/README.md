@@ -270,10 +270,10 @@ De HTTP-connectie uit onderdeel 2 wordt beëindigd door de computer van de gebru
 
 Een HTTP GET request naar *http://64.188.19.241/atcn.jpg*.   
 Volgende vragen opportuun:   
-- Is 64.188.19.241 betrouwbaar?
-- Waarom gebruikt men een IPv4-adres i.p.v. een domeinnaam?
-- Is atcn.jpg werkelijk een JPEG?
-- Is er een User-Agent aanwezig?
+1. Is 64.188.19.241 betrouwbaar?
+2. Waarom gebruikt men een IPv4-adres i.p.v. een domeinnaam?
+3. Is atcn.jpg werkelijk een JPEG?
+4. Is er een User-Agent aanwezig?
 
 Het antwoord op de eerste vraag bekomt men door het IPv4-adres (64.188.19.241) in te geven bij enkele *Threat Intelligence* websites. De resultaten kunnen zeker tegenstrijdig zijn. Daarom is het aangewezen meerdere websites te raadplegen.  
 
@@ -285,10 +285,25 @@ Het antwoord op de tweede vraag is meer principieel. Mensen gebruiken eerder dom
 
 Het antwoord op de derde vraag kan via verschillende opties gevonden worden.   
 Mogelijke werkwijzen zijn:
-- Follow TCP stream
-- Het exporteren van het object
-- Color rules
+- Follow TCP stream   
+![REMCOSFRAME58STREAM](./assets/REMCOSFRAME58STREAM.png)   
+Hierboven is duidelijk te zien dat het bestand atcn.jpg geen JPEG is.  
+
+- Het exporteren van het object   
+![REMCOSFRAME58HASH](./assets/REMCOSFRAME58HASH.png)   
+![REMCOSFRAME58VIRUSTOTAL](./assets/REMCOSFRAME58VIRUSTOTAL.png)  
+Ook hier is het duidelijk day atcn.jpg geen JPEG is.
+
+- Color rules   
+![REMCOSFRAME58COLOR1](./assets/REMCOSFRAME58COLOR1.png)   
+![REMCOSFRAME58COLOR2](./assets/REMCOSFRAME58COLOR2.png)  
+Een alternatieve manier is werken met een color rule. Deze wordt actief zodra er een match is.
+Zodra de string *.exe* of *This program* aanwezig is, wordt het frame gekleurd.
 
 Het antwoord op de vierde vraag is positief.
-
+![REMCOSFRAME58AGENT](./assets/REMCOSFRAME58AGENT.png)   
+![REMCOSFRAME58AGENT1](./assets/REMCOSFRAME58AGENT1.png)  
 Het resultaat is eerder verdacht. Internet Explorer 11 is een verouderde web browser en wordt zelden nog gebruikt.
+
+**Frame 66:**
+De HTTP-connectie wordt beëindigd door de computer van de gebruiker.  
