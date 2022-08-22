@@ -167,7 +167,7 @@ Onderstaande figuur als voorbeeld.
 
 ![USERAGENT](./assets/USERAGENT.png)   
 
-Om meer informatie bekomen omtrent specifieke User-Agents, kan men gebruik maken van [User-Agents.net](https://user-agents.net/)   
+Om meer informatie bekomen omtrent specifieke User-Agents, kan men gebruik maken van [User-Agents.net](https://user-agents.net/lookup)   
 
 ![REMCOSFRAME8](./assets/REMCOSFRAME8.png)   
 
@@ -289,3 +289,6 @@ Mogelijke werkwijzen zijn:
 - Het exporteren van het object
 - Color rules
 
+Het antwoord op de vierde vraag is positief.
+
+Het resultaat is eerder verdacht. Internet Explorer 11 is een verouderde web browser en wordt zelden nog gebruikt.
