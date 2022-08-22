@@ -55,29 +55,41 @@ Bekijk onderstaande video en voer de stappen gelijktijdig uit op uw toestel.
 [Bestand - KOLOM.PCAPng](https://opleiding-cybersecurity.be/Kolom.pcapng)  
 
 
+
+
 ![OEFENING3](./assets/OEFENING3.png)   
 [Video - COLOR.MKV](https://opleiding-cybersecurity.be/COLOR.mkv)  
-[Bestand - COLOR.PCAPng](https://opleiding-cybersecurity.be/Color.pcapng)  
+[Bestand - COLOR.PCAPng](https://opleiding-cybersecurity.be/Color.pcapng)   
+
+
 
 
 ![OEFENING4](./assets/OEFENING4.png)    
 [Video - DISPLAY1.MKV](https://opleiding-cybersecurity.be/DISPLAY1.mkv)  
-[Bestand - DISPLAY1.PCAPng](https://opleiding-cybersecurity.be/Display1.pcapng)   
+[Bestand - DISPLAY1.PCAPng](https://opleiding-cybersecurity.be/Display1.pcapng)     
+
+
 
 
 ![OEFENING5](./assets/OEFENING5.png)   
 Probeer te bepalen hoeveel frames gerelateerd zijn aan netwerkverkeer van YouTube.  
 [Bestand - DISPLAY2.PCAPng](https://opleiding-cybersecurity.be/Display2.pcapng)  
-Het antwoord is te vinden in "Capture file comments".  
+Het antwoord is te vinden in "Capture file comments".    
+
+
 
 
 ![OEFENING6](./assets/OEFENING6.png)    
 [Video - GEOIP.MKV](https://opleiding-cybersecurity.be/GEOIP.mkv)  
-[Bestand - DISPLAY1.PCAPng](https://opleiding-cybersecurity.be/Display1.pcapng)  
+[Bestand - DISPLAY1.PCAPng](https://opleiding-cybersecurity.be/Display1.pcapng)    
+
+
 
 
 ![OEFENING7](./assets/OEFENING7.png)   
 [Video - EXTRACT.MKV](https://opleiding-cybersecurity.be/EXTRACT.mkv)   
 [Bestand - DISPLAY1.PCAPng](https://opleiding-cybersecurity.be/Display1.pcapng)  
-[Bestand - COLOR.PCAPng](https://opleiding-cybersecurity.be/Color.pcapng)  
+[Bestand - COLOR.PCAPng](https://opleiding-cybersecurity.be/Color.pcapng)    
+
+
 

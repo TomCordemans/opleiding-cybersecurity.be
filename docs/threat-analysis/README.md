@@ -12,18 +12,18 @@ Een mogelijke werkwijze is het gebruik maken van een virtuele machine.
 ## Wireshark tweaken  
 
 Wireshark kan gebruikt worden voor verschillende taken. Als voorbeeld: Troubleshooting, security threats analysis, ... .
-We gebruiken dezelfde data (frames) maar we stellen andere vragen. Daarom een specifieke profiel per taak een noodzaak.
+We gebruiken dezelfde data (frames) maar we stellen andere vragen. Daarom is een specifiek profiel per taak een noodzaak.
 
 Sommigen opteren om zelf hun profiel samen te stellen. Anderen maken gebruik van profielen die beschikbaar gesteld worden door derden.
 
-![OEFENING](./assets/OEFENING.png)
-Oefening 8:  
-In deze oefening importen we een security profiel in Wireshark. Hierbij maken reeds gebruik van Kali linux virtuele machine.   
+![OEFENING8](./assets/OEFENING8.png)   
+In deze oefening importen we een security profiel in Wireshark. Hierbij maken reeds gebruik van een Kali Linux virtuele machine.   
 [Video - SECURITY_PROFILE.MKV](https://opleiding-cybersecurity.be/SECURITY_PROFILE.mkv)  
-[Bestand - SECURITYV5.ZIP](https://opleiding-cybersecurity.be/SecurityV5.zip) 
+[Bestand - SECURITYV5.ZIP](https://opleiding-cybersecurity.be/SecurityV5.zip)  
 
-![OEFENING](./assets/OEFENING.png)
-Oefening 9:  
+
+
+![OEFENING9](./assets/OEFENING9.png)   
 Probeer aan de hand van de verschillende profielen (default versus SecurityV5) de anomalie in een specifiek frame te vinden.  
 [Video - CHECK-ICMP.MKV](https://opleiding-cybersecurity.be/CHECK-ICMP.mkv)  
 [Bestand - CHECK-ICMP.PCAPng](https://opleiding-cybersecurity.be/CHECK-ICMP.PCAPng) 
@@ -104,7 +104,7 @@ In deze casus bespreken Remcos RAT. Remcos is acroniem voor *Remote Control & Su
 Het captatiebestand is afkomstig van de website:   
 [MALWARE-TRAFFIC-ANALYSIS.NET](https://www.malware-traffic-analysis.net/)   
 
-In deze casus gebruiken we **2022-01-04 -- Recmos RAT infection from Excel file with macros**
+In deze casus gebruiken we **2022-01-04 -- Recmos RAT infection from Excel file with macros**   
 Download het bestand *2022-01-04-Remcos-RAT-infection-traffic.pcap.zip*  
 
 
@@ -113,7 +113,7 @@ Download het bestand *2022-01-04-Remcos-RAT-infection-traffic.pcap.zip*
 Zoals vermeld is het ZIP-bestand beveiligd. Het wachtwoord is [hier](https://www.malware-traffic-analysis.net/about.html) te vinden.
 
 De context van deze casus:   
-Een gebruiker heeft vanaf zijn computer (10.1.4.101) op 4 januari 2022 (21u24) een mail geopend in Outlook die een Excel-bestand (Payment Remettande Advice.xlsb) bevatte. De gebruiker heeft daarna het Excel-bestand met macro geopend. Via deze macro werd een verbinding met Onderdrive gemaakt.
+Een gebruiker heeft vanaf zijn computer (10.1.4.101) op 4 januari 2022 (21u24) een mail geopend in Outlook die een Excel-bestand (Payment Remettande Advice.xlsb) bevatte. De gebruiker heeft daarna het Excel-bestand met macro geopend. Via deze macro werd een verbinding met OnerDrive gemaakt.
 
 Open het bestand en controleer of het security profiel actief is.
 
@@ -139,7 +139,9 @@ Een DNS-response afkomstig van de interne DNS-server. Met als antwoord onedrive.
 
 ![WHOIS](./assets/WHOIS.png)  
 
+
 *Tip: In het Security profiel kan men gebruik maken van een Filter Button die enkel netwerkverkeer naar externe DNS-servers zal tonen. Zo krijgt men zeer snel een beeld op eventueel ongewenst netwerkverkeer.*   
+
 
 ![DNSFILTERBUTTON](./assets/DNSfilterbutton.png)    
 
@@ -152,8 +154,8 @@ Een DNS-response afkomstig van de interne DNS-server. Met als antwoord onedrive.
 Een HTTP GET request naar *http://onedrive.live.com/download?cid=64F8294A00286885&resid=64F8294A00286885%21770&authkey=ABI3zrc6BsVUKxU*.   
 
 Belangrijke vragen zijn:
-- Is onedrive.live.com betrouwbaar?
-- Is er een User-Agent aanwezig?  
+1. Is onedrive.live.com betrouwbaar?
+2. Is er een User-Agent aanwezig?  
 
 Om de eerste vraag te beantwoorden, maakt men gebruik van verschillende websites zoals:
 - [VirusTotal](https://www.virustotal.com/gui/home/url)  
@@ -162,7 +164,7 @@ Om de eerste vraag te beantwoorden, maakt men gebruik van verschillende websites
 
 Men kan concluderen dat deze website legitiem is, maar dat Microsoft OneDrive ook gebruikt wordt om malware te verspreiden.
 
-Op de tweede vraag moeten men negatief antwoorden. Dit is verdacht. Wanneer men een website bezoekt via een web browser (Google Chrome, Firefox, ...) bevat de HTTP GET request altijd een User-Agent.   
+Op de tweede vraag moeten men negatief antwoorden. Dit is potentieel verdacht. Wanneer men een website bezoekt via een web browser (Google Chrome, Firefox, ...) bevat de HTTP GET request altijd een User-Agent.   
 Onderstaande figuur als voorbeeld.  
 
 ![USERAGENT](./assets/USERAGENT.png)   
@@ -183,7 +185,7 @@ Er volgt een redirection naar *https://onedrive.live.com/download?cid=64F8294A00
 
 **Frame 13:**   
 
-Een HTTPS-verbinding is versleuteld. Toch is er nog voldoende informatie beschikbaar om een beeld te vormen over de verbinding. Frame 18 bevat de *Client Hello* boodschap. Naast de beschikbare *Cipher Suites* kunnen we ook de domeinnaam achterhalen. De domeinnaam is opnieuw *onedrive.live.com*.
+Een HTTPS-verbinding is versleuteld. Toch is er nog voldoende informatie beschikbaar om een beeld te vormen over deze verbinding. Frame 13 bevat de *Client Hello* boodschap. Naast de beschikbare *Cipher Suites* kunnen we ook de domeinnaam achterhalen. De domeinnaam is opnieuw *onedrive.live.com*.
 
 *Tip: Bepaalde velden zitten diep verscholen in de headers. Het is daarom gewenst om cruciale informatie als kolom te visualiseren of via een Filter Button beschikbaar te stellen.*
 
@@ -235,8 +237,8 @@ Na onderzoek kunnen we stellen dat het bijhorend certificaat correct en geldig w
 
 Er werd een nieuwe HTTPS-verbinding naar *diufxw.sn.files.1drv.com* gestart.   
 We moeten opnieuw dezelfde vragen stellen:   
-- Is *diufxw.sn.files.1drv.com* betrouwbaar?
-- Is bijhorend certificaat correct en geldig? 
+1. Is *diufxw.sn.files.1drv.com* betrouwbaar?
+2. Is bijhorend certificaat correct en geldig? 
 
 *Tip: Gebruik dezelfde werkwijze als bij de vorige onderdelen.*
 
@@ -250,11 +252,10 @@ Na onderzoek kunnen we stellen dat de domeinnaam *diufxw.sn.files.1drv.com* betr
 
 De HTTPS-connectie uit onderdeel 4 wordt beëindigd door de computer van de gebruiker.   
 
-*Opmerking: Waarom staat dit in het rood?*
-*[Coloring Rule Name: TCP RST]*
-*[Coloring Rule String: tcp.flags.reset eq 1]*
-*Een TCP-RST wordt vaak gebruikt om een verbinding snel af te breken. Het zorgt voor minder overhead dan bij een TCP-FIN.*
-*In de huidige context is dit verdacht.*
+*Opmerking: Waarom staat dit in het rood?*  
+*[Coloring Rule Name: TCP RST]*   
+*[Coloring Rule String: tcp.flags.reset eq 1]*   
+*Een TCP-RST wordt vaak gebruikt om een verbinding snel af te breken. Het zorgt voor minder overhead dan bij een TCP-FIN.* *In de huidige context is dit verdacht.*   
 
 **Frame 53:**   
 De HTTPS-connectie uit onderdeel 3 wordt beëindigd door de computer van de gebruiker.  
