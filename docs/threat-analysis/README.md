@@ -335,4 +335,31 @@ Een DNS-query afkomstig van de computer van de gebruiker (10.1.4.101) naar de in
 **Frame 2598:**   
 Een DNS-response afkomstig van de interne DNS-server. Met als antwoord shiestynerd.dvrlists.com komt overeen met het publiek IPv4-adres 79.134.225.79.
 
-*Opmerking: Indien men twijfelt aan de reputatie van een publiek IPv4-adres kan men gebruik maken van verschillende websites. Enkele voorbeelden zijn [WHO.IS](https://who.is/) of [Talos](https://www.talosintelligence.com/)*.  
+*Opmerking: Indien men twijfelt aan de reputatie van een publiek IPv4-adres kan men gebruik maken van verschillende websites. Enkele voorbeelden zijn [WHO.IS](https://who.is/) of [Talos](https://www.talosintelligence.com/)*.
+
+### Onderdeel 9 van de casus   
+
+Via de filter button *HTTP(S)* bekomt onderstaande informatie.
+
+![REMCOSHTTPS](./assets/REMCOSHTTPS.png)   
+
+**Frame 2602, 2627, 2628 en 3134:**   
+
+HTTPS-connecties zonder *"Server Name"*.   
+We stellen onmiddellijk volgende vragen:   
+1. Waarom is er geen *"Server name"* aanwezig?   
+2. Waarom TCP-poort 10174?   
+3. 79.134.225.79 betrouwbaar?   
+4. Kunnen we informatie ophalen omtrent het certificaat van de server?   
+
+Het antwoord op de eerste vraag is terug principieel. Mensen gebruiken eerder domeinnamen dan IPv4-adressen in een webbrowser. Onze waakzaamheid zal dus verhogen bij een dergelijke indicatie.   
+
+TCP-poort 10174 is geen zeker standaard poort voor TLS-verkeer. We kunnen dus op tweede vraag geen antwoord geven. Hierdoor als onze waakzaamheid terug verhogen.   
+
+Het antwoord op de eerste vraag bekomt men door het IPv4-adres (79.134.225.79) in te geven bij enkele *Threat Intelligence* websites. De resultaten kunnen zeker tegenstrijdig zijn. Daarom is het aangewezen meerdere websites te raadplegen.  
+
+![REMCOSIP2](./assets/REMCOSIP2.png)   
+
+Na onderzoek blijkt dat het IPv4-adres (79.134.225.79) niet echt betrouwbaar is.   
+
+
