@@ -329,10 +329,10 @@ De HTTP-connectie wordt beëindigd door de computer van de gebruiker.
 
 ![REMCOSDNS2](./assets/REMCOSDNS2.png)   
 
-**Frame 1:**   
+**Frame 2597:**   
 Een DNS-query afkomstig van de computer van de gebruiker (10.1.4.101) naar de interne DNS-server (10.1.14.1) voor de domeinnaam shiestynerd.dvrlists.com.   
 
-**Frame 2:**   
+**Frame 2598:**   
 Een DNS-response afkomstig van de interne DNS-server. Met als antwoord shiestynerd.dvrlists.com komt overeen met het publiek IPv4-adres 79.134.225.79.
 
 *Opmerking: Indien men twijfelt aan de reputatie van een publiek IPv4-adres kan men gebruik maken van verschillende websites. Enkele voorbeelden zijn [WHO.IS](https://who.is/) of [Talos](https://www.talosintelligence.com/)*.  
