@@ -306,7 +306,7 @@ Het antwoord op de vierde vraag is positief.
 Het resultaat is eerder verdacht. Internet Explorer 11 is een verouderde web browser en wordt zelden nog gebruikt.
 
 **Frame 66:**   
-De HTTP-connectie wordt beëindigd door de computer van de gebruiker.  
+De HTTP-connectie wordt beëindigd door de computer van de gebruiker.   
 
 ### Onderdeel 7 van de casus  
 
