@@ -32,7 +32,11 @@ De meest voorkomende taken waarbij je Wireshark gebruikt:
 - Analyse van applicaties (voorbeeld: bandbreedte gebruik, …) 
 - ...
 
-*Opmerking: Met Wireshark kan je enkel zaken vaststellen. Je kan geen problemen oplossen met Wireshark. Daarvoor zullen andere ingrepen noodzakelijk zijn. Als voorbeeld: een aanpassing aan de regels op de firewall.* 
+:::tip
+
+ Met Wireshark kan je enkel zaken vaststellen. Je kan geen problemen oplossen met Wireshark. Daarvoor zullen andere ingrepen noodzakelijk zijn. Als voorbeeld: een aanpassing aan de regels op de firewall.
+
+:::
 
 ## Basishandelingen
 
