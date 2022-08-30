@@ -35,6 +35,6 @@ Daarnaast verkreeg ik (Tom Cordemans) de toestemming van Brad Duncan om bestande
 
 Vragen en opmerkingen zijn steeds welkom!
 
-[E-mail](mailto:tom.cordemans@kuleuven.be)
+[E-mail](mailto:tom.cordemans@vives.be)
 
 [LinkedIn](https://linkedin.com/in/tom-cordemans-54419821)
