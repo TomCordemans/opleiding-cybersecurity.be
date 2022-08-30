@@ -23,7 +23,7 @@ Standaard verwerkt een netwerkkaart enkel specifieke frames.
 Alle andere frames worden standaard genegeerd. Dit is uiteraard geen gewenste situatie bij het capteren van netwerkverkeer.
 We willen namelijk alle frames capteren ongeacht het destinatie MAC-adres.  
 
-Wanneer een netwerkkaart in *promiscuous mode* werkt, wordt het destinatie MAC-adres genegeerd en worden alle frame verwerkt ongeacht het destinatie MAC-adres. Deze mode is uiteraard cruciaal bij het capteren van netwerkverkeer.
+Wanneer een netwerkkaart in *promiscuous mode* werkt, wordt het destinatie MAC-adres genegeerd en worden alle frames verwerkt ongeacht het destinatie MAC-adres. Deze mode is uiteraard cruciaal bij het capteren van netwerkverkeer.
 
 Applicaties zoals TCPdump en Wireshark plaatsen de netwerkkaart standaard in "promiscuous mode".   
 Ter info: Dit is de reden waarom tijdens de installatie van Wireshark op een Microsoft besturingssysteem een extra stuurprogramma (Npcap) wordt geïnstalleerd.
@@ -44,7 +44,7 @@ Mogelijke werkwijzen bij het capteren:
 
 Hierbij hebben we nog 2 opties:
 
-- Het toestel beschikt over een eigen capteerfunctie. Als voorbeeld een screenshot van Fortinet firewall.  
+- Het toestel beschikt over een eigen capteerfunctie. Als voorbeeld een screenshot van een Fortinet firewall.  
 
 ![FORTIGATE](./assets/FORTIGATE.png)  
 
@@ -71,7 +71,7 @@ Hieronder een foto van de hardware en de weergave van de opstelling.
 
 **Let op: Bij het plaatsen van een tap veroorzaak je kort een onderbreking van de netwerkfunctionaliteit!**
 
-Een vaakgestelde vraag: *Op welke plaatsen in mijn netwerk moet ik precies capteren?*   
+Een vaak gestelde vraag: *Op welke plaatsen in mijn netwerk moet ik precies capteren?*   
 
 Dit is geen eenvoudige vraag. Accurate en actuele documentatie van het netwerk is hierbij noodzakelijk.  
 

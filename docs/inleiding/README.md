@@ -11,7 +11,7 @@ In een bos vermoed je de aanwezigheid van een schimmel die bepaalde planten aant
 
 In deze vergelijking is de microscoop een network protocol analyzer en de drone een SIEM. De initiële stap bij het onderzoek naar cybersecurity threats zal dus nooit het gebruik van een network protocol analyzer zijn!
 
-## SIEM versus Network Protocol Analyzer.
+## SIEM versus Network Protocol Analyzer
 
 Een SIEM (Security Information and Event Management)  is software of een service die gegevens van verschillende applicaties en apparatuur centraal verzamelt, analyseert en visualiseert.
 
