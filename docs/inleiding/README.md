@@ -25,7 +25,7 @@ Een network protocol analyzer is software of een service die netwerkverkeer capt
 ![NPA](./assets/NPA.png)
 
 
-Een SIEM wordt hoofdzakelijk gebruikt in de context van cybersecurity threats. Een network protocol analyzer daarentegen kan ruimer ingezet worden. Vaak wordt een network protocol analyzer gebruik bij troubleshooting. (Problemen met de performantie van het netwerk, ... )
+Een SIEM wordt hoofdzakelijk gebruikt in de context van cybersecurity threats. Een network protocol analyzer daarentegen kan ruimer ingezet worden. Vaak wordt een network protocol analyzer gebruikt bij troubleshooting. (Problemen met de performantie van het netwerk, ... )
 
 ## Cyber Kill Chain Model
 
