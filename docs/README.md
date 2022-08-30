@@ -6,7 +6,7 @@ title: Home
 
 > Cybersecurity Flankerend beleid
 
-### **Efficiënt gebruik van een "network protocol analyzer" bij cybersecurity threats**   
+#### **Efficiënt gebruik van een "network protocol analyzer" bij cybersecurity threats**   
 
 
 ![Success](./assets/Frontpage.png)   
