@@ -35,7 +35,13 @@ Eenmaal een bestand uit een captatie wordt gehaald, is het meer dan wenselijk di
 [Talos](https://www.talosintelligence.com/talos_file_reputation)   
 [URLhaus](https://urlhaus.abuse.ch/browse/)   
 
-Om datalekken te vermijden is het aangewezen om gebruik te maken van een hash. Daarnaast is een hash meestal zeer klein t.o.v. van het originele bestand.
+:::tip
+Om datalekken te vermijden is het aangewezen om gebruik te maken van een hash. 
+
+Een hash is een one-way functie die van een bepaalde input, i.e. het te hashen bestand, omzet naar een reeks karakters. Een one-way functie betekent dat het originele bestand niet meer eenvoudig te achterhalen valt. Daarnaast is een hash meestal zeer klein t.o.v. van het originele bestand.
+
+Een hash is deterministisch wat inhoudt dat twee maal dezelfde input eenzelfde hash zullen opleveren. Een kleine wijziging van de input zal echter een volledig verschillende hash opleveren.
+:::
 
 De werkwijze via PowerShell:   
 ```
@@ -99,7 +105,9 @@ Voorbeelden zijn:
 
 In deze casus bespreken Remcos RAT. Remcos is acroniem voor *Remote Control & Surveillance* en RAT staat voor *Remote Access Trojan*.   
 
-![STOP](./assets/STOP.png)
+:::danger
+Dit bestand enkel analyseren op een niet-Windows besturingssysteem!
+:::
 
 Het captatiebestand is afkomstig van de website:   
 [MALWARE-TRAFFIC-ANALYSIS.NET](https://www.malware-traffic-analysis.net/)   
@@ -130,17 +138,23 @@ Aan de hand van screenshots en bijhorende uitleg op frame niveau wordt de volled
 **Frame 1:**   
 Een DNS-query afkomstig van de computer van de gebruiker (10.1.4.101) naar de interne DNS-server (10.1.14.1) voor de domeinnaam onedrive.live.com.   
 
-*Opmerking: Indien je gebruik maakt van interne DNS-servers is het logisch dat je de computers van de gebruikers enkel laat communiceren met deze interne DNS-servers. Zo beperk je de kans op misbruik via externe DNS-servers.*    
+:::tip
+ Indien je gebruik maakt van interne DNS-servers is het logisch dat je de computers van de gebruikers enkel laat communiceren met deze interne DNS-servers. Zo beperk je de kans op misbruik via externe DNS-servers.
+ :::
 
 **Frame 2:**   
 Een DNS-response afkomstig van de interne DNS-server. Met als antwoord onedrive.live.com komt overeen met het publiek IPv4-adres 13.107.42.13.
 
-*Opmerking: Indien je twijfelt aan de reputatie van een publiek IPv4-adres kan je gebruik maken van verschillende websites. Enkele voorbeelden zijn [WHO.IS](https://who.is/) of [Talos](https://www.talosintelligence.com/)*.  
+:::tip
+Indien je twijfelt aan de reputatie van een publiek IPv4-adres kan je gebruik maken van verschillende websites. Enkele voorbeelden zijn [WHO.IS](https://who.is/) of [Talos](https://www.talosintelligence.com/).
+:::  
 
 ![WHOIS](./assets/WHOIS.png)  
 
 
-*Tip: In het Security profiel kan je gebruik maken van een Filter Button die enkel netwerkverkeer naar externe DNS-servers zal tonen. Zo krijg je zeer snel een beeld op eventueel ongewenst netwerkverkeer.*   
+:::tip
+ In het Security profiel kan je gebruik maken van een Filter Button die enkel netwerkverkeer naar externe DNS-servers zal tonen. Zo krijg je zeer snel een beeld op eventueel ongewenst netwerkverkeer.
+ :::
 
 
 ![DNSFILTERBUTTON](./assets/DNSfilterbutton.png)    
@@ -177,7 +191,9 @@ Om meer informatie bekomen omtrent specifieke User-Agents, kan je gebruik maken 
 
 Er volgt een redirection naar *https://onedrive.live.com/download?cid=64F8294A00286885&resid=64F8294A00286885%21770&authkey=ABI3zrc6BsVUKxU*
 
-*Opmerking: Een redirection van HTTP naar HTTPS is zeer courant. Dit is dus niet verdacht.*
+:::tip
+Een redirection van HTTP naar HTTPS is zeer courant. Dit is dus niet verdacht.
+:::
 
 ### Onderdeel 3 van de casus
 
@@ -187,7 +203,9 @@ Er volgt een redirection naar *https://onedrive.live.com/download?cid=64F8294A00
 
 Een HTTPS-verbinding is versleuteld. Toch is er nog voldoende informatie beschikbaar om een beeld te vormen over deze verbinding. Frame 13 bevat de *Client Hello* boodschap. Naast de beschikbare *Cipher Suites* kunnen we ook de domeinnaam achterhalen. De domeinnaam is opnieuw *onedrive.live.com*.
 
-*Tip: Bepaalde velden zitten diep verscholen in de headers. Het is daarom gewenst om cruciale informatie als kolom te visualiseren of via een Filter Button beschikbaar te stellen.*
+:::tip
+Bepaalde velden zitten diep verscholen in de headers. Het is daarom gewenst om cruciale informatie als kolom te visualiseren of via een Filter Button beschikbaar te stellen.
+:::
 
 ![HTTPSfilterbutton](./assets/HTTPSfilterbutton.png)   
 
@@ -338,7 +356,9 @@ Een DNS-query afkomstig van de computer van de gebruiker (10.1.4.101) naar de in
 **Frame 2598:**   
 Een DNS-response afkomstig van de interne DNS-server met als antwoord *shiestynerd.dvrlists.com*. Dit komt overeen met het publiek IPv4-adres 79.134.225.79.
 
-*Opmerking: Indien je twijfelt aan de reputatie van een publiek IPv4-adres kan je gebruik maken van verschillende websites. Enkele voorbeelden zijn [WHO.IS](https://who.is/) of [Talos](https://www.talosintelligence.com/)*.
+:::tip 
+Indien je twijfelt aan de reputatie van een publiek IPv4-adres kan je gebruik maken van verschillende websites. Enkele voorbeelden zijn [WHO.IS](https://who.is/) of [Talos](https://www.talosintelligence.com/).
+:::
 
 ### Onderdeel 9 van de casus   
 
@@ -411,6 +431,7 @@ Zonder diepgaande kennis van de verschillende protocollen is het onmogelijk derg
 
 Oefenen baart kunst! Meer oefeningen kan je vinden op [Malware-Traffic-Analysis.NET](https://www.malware-traffic-analysis.net/)
 
-**BE AWARE PACKETS NEVER LIE**
-
+:::warning Tot slot
+BE AWARE, PACKETS NEVER LIE
+:::
 

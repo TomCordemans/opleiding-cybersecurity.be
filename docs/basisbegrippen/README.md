@@ -93,9 +93,13 @@ Praktische informatie kan je vinden op onderstaande links:
 
 [Lab WLAN Capturing](https://www.tomcordemans.net/wireless-capturing/)
 
-*Opmerking: Indien het netwerkverkeer zowel op het bekabeld als op het draadloos netwerk voorkomt, opteer dan zeker om op het bekabeld netwerk te capteren.*
+:::tip
+Indien het netwerkverkeer zowel op het bekabeld als op het draadloos netwerk voorkomt, opteer dan zeker om op het bekabeld netwerk te capteren.
+:::
 
-*Opmerking: Het capteren van netwerkverkeer heeft uiteraard ook consequenties. De nood aan opslagcapaciteit en respect voor de huidige regelgeving.* 
+:::tip
+Het capteren van netwerkverkeer heeft uiteraard ook consequenties. De nood aan opslagcapaciteit en respect voor de huidige regelgeving.
+:::
 
 ### PCAP of PCAPng
 
