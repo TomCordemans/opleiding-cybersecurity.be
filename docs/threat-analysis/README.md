@@ -30,7 +30,7 @@ Probeer aan de hand van de verschillende profielen (default versus SecurityV5) d
 
 ## Controle op verdachte bestanden
 
-Eenmaal een bestand uit een captatie wordt gehaald, is het meer dan wenselijk dit bestand te controleren. Hierbij kan men gebruik maken van verschillende websites:   
+Eenmaal een bestand uit een captatie wordt gehaald, is het meer dan wenselijk dit bestand te controleren. Hierbij kan je gebruik maken van verschillende websites:   
 [VirusTotal](https://www.virustotal.com/gui/home/search)  
 [Talos](https://www.talosintelligence.com/talos_file_reputation)   
 [URLhaus](https://urlhaus.abuse.ch/browse/)   
@@ -130,17 +130,17 @@ Aan de hand van screenshots en bijhorende uitleg op frame niveau wordt de volled
 **Frame 1:**   
 Een DNS-query afkomstig van de computer van de gebruiker (10.1.4.101) naar de interne DNS-server (10.1.14.1) voor de domeinnaam onedrive.live.com.   
 
-*Opmerking: Indien men gebruik maakt van interne DNS-servers is het logisch dat men de computers van de gebruikers enkel laat communiceren met deze interne DNS-servers. Zo beperkt men de kans op misbruik via externe DNS-servers.*    
+*Opmerking: Indien je gebruik maakt van interne DNS-servers is het logisch dat je de computers van de gebruikers enkel laat communiceren met deze interne DNS-servers. Zo beperk je de kans op misbruik via externe DNS-servers.*    
 
 **Frame 2:**   
 Een DNS-response afkomstig van de interne DNS-server. Met als antwoord onedrive.live.com komt overeen met het publiek IPv4-adres 13.107.42.13.
 
-*Opmerking: Indien men twijfelt aan de reputatie van een publiek IPv4-adres kan men gebruik maken van verschillende websites. Enkele voorbeelden zijn [WHO.IS](https://who.is/) of [Talos](https://www.talosintelligence.com/)*.  
+*Opmerking: Indien je twijfelt aan de reputatie van een publiek IPv4-adres kan je gebruik maken van verschillende websites. Enkele voorbeelden zijn [WHO.IS](https://who.is/) of [Talos](https://www.talosintelligence.com/)*.  
 
 ![WHOIS](./assets/WHOIS.png)  
 
 
-*Tip: In het Security profiel kan men gebruik maken van een Filter Button die enkel netwerkverkeer naar externe DNS-servers zal tonen. Zo krijgt men zeer snel een beeld op eventueel ongewenst netwerkverkeer.*   
+*Tip: In het Security profiel kan je gebruik maken van een Filter Button die enkel netwerkverkeer naar externe DNS-servers zal tonen. Zo krijg je zeer snel een beeld op eventueel ongewenst netwerkverkeer.*   
 
 
 ![DNSFILTERBUTTON](./assets/DNSfilterbutton.png)    
@@ -157,19 +157,19 @@ Belangrijke vragen zijn:
 1. Is onedrive.live.com betrouwbaar?
 2. Is er een User-Agent aanwezig?  
 
-Om de eerste vraag te beantwoorden, maakt men gebruik van verschillende websites zoals:
+Om de eerste vraag te beantwoorden, maak je gebruik van verschillende websites zoals:
 - [VirusTotal](https://www.virustotal.com/gui/home/url)  
 - [Talos](https://www.talosintelligence.com/)   
 - [URLhaus](https://urlhaus.abuse.ch/browse/)  
 
-Men kan concluderen dat deze website legitiem is, maar dat Microsoft OneDrive ook gebruikt wordt om malware te verspreiden.
+Je kan concluderen dat deze website legitiem is, maar dat Microsoft OneDrive ook gebruikt wordt om malware te verspreiden.
 
-Op de tweede vraag moeten men negatief antwoorden. Dit is potentieel verdacht. Wanneer men een website bezoekt via een web browser (Google Chrome, Firefox, ...) bevat de HTTP GET request altijd een User-Agent.   
+Op de tweede vraag moet je negatief antwoorden. Dit is potentieel verdacht. Wanneer je een website bezoekt via een web browser (Google Chrome, Firefox, ...) bevat de HTTP GET request altijd een User-Agent.   
 Onderstaande figuur als voorbeeld.  
 
 ![USERAGENT](./assets/USERAGENT.png)   
 
-Om meer informatie bekomen omtrent specifieke User-Agents, kan men gebruik maken van [User-Agents.net](https://user-agents.net/lookup)   
+Om meer informatie bekomen omtrent specifieke User-Agents, kan je gebruik maken van [User-Agents.net](https://user-agents.net/lookup)   
 
 ![REMCOSFRAME8](./assets/REMCOSFRAME8.png)   
 
@@ -195,7 +195,7 @@ Een HTTPS-verbinding is versleuteld. Toch is er nog voldoende informatie beschik
 
 **Frame 18:**
 
-Hier vinden we de *Server Hello* boodschap terug. Naast de gebruikte *Cipher Suite* vindt men hier alle informatie omtrent de certificaten terug. 
+Hier vinden we de *Server Hello* boodschap terug. Naast de gebruikte *Cipher Suite* vind je hier alle informatie omtrent de certificaten terug. 
 Belangrijke velden zijn:   
 ```
 issuer: rdnSequence (0)
@@ -272,11 +272,11 @@ De HTTP-connectie uit onderdeel 2 wordt beëindigd door de computer van de gebru
 Er werd een HTTP GET request naar *http://64.188.19.241/atcn.jpg* gestart.   
 Volgende vragen opportuun:   
 1. Is 64.188.19.241 betrouwbaar?
-2. Waarom gebruikt men een IPv4-adres i.p.v. een domeinnaam?
+2. Waarom gebruik je een IPv4-adres i.p.v. een domeinnaam?
 3. Is atcn.jpg werkelijk een JPEG?
 4. Is er een User-Agent aanwezig?
 
-Het antwoord op de eerste vraag bekomt men door het IPv4-adres (64.188.19.241) in te geven bij enkele *Threat Intelligence* websites. De resultaten kunnen zeker tegenstrijdig zijn. Daarom is het aangewezen meerdere websites te raadplegen.  
+Het antwoord op de eerste vraag bekom je door het IPv4-adres (64.188.19.241) in te geven bij enkele *Threat Intelligence* websites. De resultaten kunnen zeker tegenstrijdig zijn. Daarom is het aangewezen meerdere websites te raadplegen.  
 
 ![REMCOSIP](./assets/REMCOSIP.png)   
 
@@ -319,7 +319,7 @@ De HTTP-connectie wordt beëindigd door de computer van de gebruiker.
 Er werd terug een HTTP GET request naar *http://104.223.119.167/calient.jpg* gestart.   
 Volgende vragen zijn opportuun:   
 1. Is 104.223.119.167 betrouwbaar?
-2. Waarom gebruikt men een IPv4-adres i.p.v. een domeinnaam?
+2. Waarom gebruik je een IPv4-adres i.p.v. een domeinnaam?
 3. Is calient.jpg werkelijk een JPEG?
 4. Is er een User-Agent aanwezig?
 
@@ -338,7 +338,7 @@ Een DNS-query afkomstig van de computer van de gebruiker (10.1.4.101) naar de in
 **Frame 2598:**   
 Een DNS-response afkomstig van de interne DNS-server. Met als antwoord *shiestynerd.dvrlists.com* komt overeen met het publiek IPv4-adres 79.134.225.79.
 
-*Opmerking: Indien men twijfelt aan de reputatie van een publiek IPv4-adres kan men gebruik maken van verschillende websites. Enkele voorbeelden zijn [WHO.IS](https://who.is/) of [Talos](https://www.talosintelligence.com/)*.
+*Opmerking: Indien je twijfelt aan de reputatie van een publiek IPv4-adres kan je gebruik maken van verschillende websites. Enkele voorbeelden zijn [WHO.IS](https://who.is/) of [Talos](https://www.talosintelligence.com/)*.
 
 ### Onderdeel 9 van de casus   
 
@@ -359,13 +359,13 @@ Het antwoord op de eerste vraag is terug principieel. Mensen gebruiken eerder do
 
 TCP-poort 10174 is zeker geen standaard poort voor TLS-verkeer. We kunnen dus op tweede vraag geen antwoord geven. Hierdoor als onze waakzaamheid terug verhogen.   
 
-Het antwoord op de derde vraag bekomt men door het IPv4-adres (79.134.225.79) in te geven bij enkele *Threat Intelligence* websites. De resultaten kunnen zeker tegenstrijdig zijn. Daarom is het aangewezen meerdere websites te raadplegen.  
+Het antwoord op de derde vraag bekom je door het IPv4-adres (79.134.225.79) in te geven bij enkele *Threat Intelligence* websites. De resultaten kunnen zeker tegenstrijdig zijn. Daarom is het aangewezen meerdere websites te raadplegen.  
 
 ![REMCOSIP2](./assets/REMCOSIP2.png)   
 
 Na onderzoek blijkt dat het IPv4-adres (79.134.225.79) niet echt betrouwbaar is.   
 
-De vierde vraag kan men beantwoorden door bijvoorbeeld frame 2604 te onderzoeken. Informatie zoals issuer, validity en subject kan ons helpen bij het het bepalen of het certificaat correct geldig is.  
+De vierde vraag kan je beantwoorden door bijvoorbeeld frame 2604 te onderzoeken. Informatie zoals issuer, validity en subject kan ons helpen bij het het bepalen of het certificaat correct geldig is.  
 
 ```
 Frame 2604: 182 bytes on wire (1456 bits), 182 bytes captured (1456 bits)
@@ -409,7 +409,7 @@ Zonder diepgaande kennis van de verschillende protocollen is het onmogelijk derg
 
 ## Oefeningen
 
-Oefenen baart kunst! Meer oefeningen kan men vinden op [Malware-Traffic-Analysis.NET](https://www.malware-traffic-analysis.net/)
+Oefenen baart kunst! Meer oefeningen kan je vinden op [Malware-Traffic-Analysis.NET](https://www.malware-traffic-analysis.net/)
 
 **BE AWARE PACKETS NEVER LIE**
 

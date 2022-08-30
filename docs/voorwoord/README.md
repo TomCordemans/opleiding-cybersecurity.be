@@ -10,7 +10,7 @@ Daarnaast bleken de verkregen skills ook uiterst bruikbaar binnen het analyseren
 
 ## Leerdoelstelling
 
-Heel wat bedrijven maken gebruik van een SIEM (Security Information and Event Management). Een dergelijke oplossing zorgt voor een holistische kijk op de informatiebeveiliging van een organisatie. Eenmaal diepgaand onderzoek nodig is, valt men vaak terug op onder andere "network protocol analyzers". Hierbij ontbreekt het vaak aan de nodige "skill set" om deze tools efficiënt te gebruiken.
+Heel wat bedrijven maken gebruik van een SIEM (Security Information and Event Management). Een dergelijke oplossing zorgt voor een holistische kijk op de informatiebeveiliging van een organisatie. Eenmaal diepgaand onderzoek nodig is, val je vaak terug op onder andere "network protocol analyzers". Hierbij ontbreekt het vaak aan de nodige "skill set" om deze tools efficiënt te gebruiken.
 
 ## Vereiste voorkennis en doelpubliek
 

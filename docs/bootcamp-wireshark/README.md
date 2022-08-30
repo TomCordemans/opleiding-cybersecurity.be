@@ -25,14 +25,14 @@ Wanneer je een opgeslagen pcapng-bestand in Wireshark opent, maak je gebruik van
 
 ## Wanneer Wireshark gebruiken?
 
-De meest voorkomende taken waarbij men Wireshark gebruikt: 
+De meest voorkomende taken waarbij je Wireshark gebruikt: 
 - Analyse van het netwerkverkeer (voorbeeld: top talkers, …) 
 - Troubleshooting (voorbeeld: vertraagd netwerk, … ) 
 - Analyse van beveiligingsproblemen (voorbeeld: verdachte hosts, …) 
 - Analyse van applicaties (voorbeeld: bandbreedte gebruik, …) 
 - ...
 
-*Opmerking: Met Wireshark kan men enkel zaken vaststellen. Men kan geen problemen oplossen met Wireshark. Daarvoor zullen andere ingrepen noodzakelijk zijn. Als voorbeeld: een aanpassing aan de regels op de firewall.* 
+*Opmerking: Met Wireshark kan je enkel zaken vaststellen. Je kan geen problemen oplossen met Wireshark. Daarvoor zullen andere ingrepen noodzakelijk zijn. Als voorbeeld: een aanpassing aan de regels op de firewall.* 
 
 ## Basishandelingen
 

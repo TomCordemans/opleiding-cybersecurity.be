@@ -30,7 +30,7 @@ Ter info: Dit is de reden waarom tijdens de installatie van Wireshark op een Mic
 
 ![NPCAP](./assets/NPCAP.png)
 
-Om accurater te meten kan men ook IPv4 en IPv6 uitschakelen op de netwerkkaart. Zo capteert men geen netwerkverkeer van het captatietoestel zelf.
+Om accurater te meten kan je ook IPv4 en IPv6 uitschakelen op de netwerkkaart. Zo capteer je geen netwerkverkeer van het captatietoestel zelf.
 
 ![NOIP](./assets/NOIP.png)
 
@@ -48,7 +48,7 @@ Hierbij hebben we nog 2 opties:
 
 ![FORTIGATE](./assets/FORTIGATE.png)  
 
-- Men kan een network protocol analyzer installeren op het toestel. Denk bijvoorbeeld aan een kritische server of een specifieke client computer.  
+- Je kan een network protocol analyzer installeren op het toestel. Denk bijvoorbeeld aan een kritische server of een specifieke client computer.  
 
 ![ONDEVICE](./assets/ONDEVICE.png)  
 
@@ -64,12 +64,12 @@ Switch(config)# monitor session 1 destination interface gigabitethernet0/2 encap
 
 3. Via een tap  
 
-Men kan ook opteren om een tap te plaatsen in het netwerk.  
+Je kan ook opteren om een tap te plaatsen in het netwerk.  
 Hieronder een foto van de hardware en de weergave van de opstelling.  
 
 ![TAP](./assets/TAP.png)  
 
-**Let op: Bij het plaatsen van een tap veroorzaakt men kort een onderbreking van de netwerkfunctionaliteit!**
+**Let op: Bij het plaatsen van een tap veroorzaak je kort een onderbreking van de netwerkfunctionaliteit!**
 
 Een vaakgestelde vraag: *Op welke plaatsen in mijn netwerk moet ik precies capteren?*   
 
@@ -87,7 +87,7 @@ Daarnaast maakt het gebruik van MIMO (Multiple-Input and Multiple-Output) de cap
 
 ![WLAN](./assets/WLAN.jpg) 
 
-Praktische informatie kan men vinden op onderstaande links:
+Praktische informatie kan je vinden op onderstaande links:
 
 [Lab WLAN Sniffing](https://www.tomcordemans.net/wireless-sniffing/)
 
@@ -129,7 +129,7 @@ Op het Internet zijn er verschillende bronnen voor PCAP-bestanden beschikbaar:
 - [NetResec](https://www.netresec.com/?page=PcapFiles)
 - ...
 
-Aan de hand van deze bestanden kan men verschillende protocollen bestuderen.  
+Aan de hand van deze bestanden kan je verschillende protocollen bestuderen.  
 Het volgende onderdeel van de cursus bevat een bootcamp Wireshark. Neem voldoende tijd om de basishandelingen onder de knie te krijgen.  
 
 
