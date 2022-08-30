@@ -17,7 +17,7 @@ We gebruiken dezelfde data (frames) maar we stellen andere vragen. Daarom is een
 Sommigen opteren om zelf hun profiel samen te stellen. Anderen maken gebruik van profielen die beschikbaar gesteld worden door derden.
 
 ![OEFENING8](./assets/OEFENING8.png)   
-In deze oefening importen we een security profiel in Wireshark. Hierbij maken reeds gebruik van een Kali Linux virtuele machine.   
+In deze oefening importen we een security profiel in Wireshark. Hierbij maken we reeds gebruik van een Kali Linux virtuele machine.   
 [Video - SECURITY_PROFILE.MKV](https://opleiding-cybersecurity.be/SECURITY_PROFILE.mkv)  
 [Bestand - SECURITYV5.ZIP](https://opleiding-cybersecurity.be/SecurityV5.zip)  
 
@@ -74,7 +74,7 @@ bf46477937c830aef1203859f55e935c356b79052e57ae6c6d0f5ca2ca05fb89  Test.jpg
 └─$ 
 ```  
 De hash kan nu aangeboden worden aan VirusTotal of andere "file reputation" diensten.  
-Als samenwatting onderstaande video:  
+Als samenvatting onderstaande video:  
 [Video - EICAR.MKV](https://opleiding-cybersecurity.be/EICAR.mkv)  
 
 ## Indicators of compromise (IoC)
@@ -104,7 +104,7 @@ In deze casus bespreken Remcos RAT. Remcos is acroniem voor *Remote Control & Su
 Het captatiebestand is afkomstig van de website:   
 [MALWARE-TRAFFIC-ANALYSIS.NET](https://www.malware-traffic-analysis.net/)   
 
-In deze casus gebruiken we **2022-01-04 -- Recmos RAT infection from Excel file with macros**   
+In deze casus gebruiken we **2022-01-04 -- Remcos RAT infection from Excel file with macros**   
 Download het bestand *2022-01-04-Remcos-RAT-infection-traffic.pcap.zip*  
 
 
@@ -113,7 +113,7 @@ Download het bestand *2022-01-04-Remcos-RAT-infection-traffic.pcap.zip*
 Zoals vermeld is het ZIP-bestand beveiligd. Het wachtwoord is [hier](https://www.malware-traffic-analysis.net/about.html) te vinden.
 
 De context van deze casus:   
-Een gebruiker heeft vanaf zijn computer (10.1.4.101) op 4 januari 2022 (21u24) een mail geopend in Outlook die een Excel-bestand (Payment Remettande Advice.xlsb) bevatte. De gebruiker heeft daarna het Excel-bestand met macro geopend. Via deze macro werd een verbinding met OnerDrive gemaakt.
+Een gebruiker heeft vanaf zijn computer (10.1.4.101) op 4 januari 2022 (21u24) een mail geopend in Outlook die een Excel-bestand (Payment Remettande Advice.xlsb) bevatte. De gebruiker heeft daarna het Excel-bestand met macro geopend. Via deze macro werd een verbinding met OneDrive gemaakt.
 
 Open het bestand en controleer of het security profiel actief is.
 
@@ -336,13 +336,13 @@ De HTTP-connectie wordt beëindigd door de computer van de gebruiker.
 Een DNS-query afkomstig van de computer van de gebruiker (10.1.4.101) naar de interne DNS-server (10.1.14.1) voor de domeinnaam *shiestynerd.dvrlists.com*.   
 
 **Frame 2598:**   
-Een DNS-response afkomstig van de interne DNS-server. Met als antwoord *shiestynerd.dvrlists.com* komt overeen met het publiek IPv4-adres 79.134.225.79.
+Een DNS-response afkomstig van de interne DNS-server met als antwoord *shiestynerd.dvrlists.com*. Dit komt overeen met het publiek IPv4-adres 79.134.225.79.
 
 *Opmerking: Indien je twijfelt aan de reputatie van een publiek IPv4-adres kan je gebruik maken van verschillende websites. Enkele voorbeelden zijn [WHO.IS](https://who.is/) of [Talos](https://www.talosintelligence.com/)*.
 
 ### Onderdeel 9 van de casus   
 
-Via de filter button *HTTP(S)* bekomt onderstaande informatie.
+Via de filter button *HTTP(S)* geeft Wireshark onderstaande informatie weer.
 
 ![REMCOSHTTPS](./assets/REMCOSHTTPS.png)   
 
@@ -352,12 +352,12 @@ Er werden verschillende HTTPS-connecties zonder *"Server Name"* gestart.
 We stellen onmiddellijk volgende vragen:   
 1. Waarom is er geen *"Server name"* aanwezig?   
 2. Waarom TCP-poort 10174?   
-3. 79.134.225.79 betrouwbaar?   
+3. Is 79.134.225.79 betrouwbaar?   
 4. Kunnen we informatie ophalen omtrent het certificaat van de server?   
 
 Het antwoord op de eerste vraag is terug principieel. Mensen gebruiken eerder domeinnamen dan IPv4-adressen in een webbrowser. Onze waakzaamheid zal dus verhogen bij een dergelijke indicatie.   
 
-TCP-poort 10174 is zeker geen standaard poort voor TLS-verkeer. We kunnen dus op tweede vraag geen antwoord geven. Hierdoor als onze waakzaamheid terug verhogen.   
+TCP-poort 10174 is zeker geen standaard poort voor TLS-verkeer. We kunnen dus op tweede vraag geen antwoord geven. Hierdoor zal onze waakzaamheid terug verhogen.   
 
 Het antwoord op de derde vraag bekom je door het IPv4-adres (79.134.225.79) in te geven bij enkele *Threat Intelligence* websites. De resultaten kunnen zeker tegenstrijdig zijn. Daarom is het aangewezen meerdere websites te raadplegen.  
 
