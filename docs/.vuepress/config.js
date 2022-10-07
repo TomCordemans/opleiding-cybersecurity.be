@@ -4,7 +4,7 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'IMEC-DISTRINET RESEARCH GROUP,KU Leuven', link: 'https://distrinet.cs.kuleuven.be' },
+      { text: 'IMEC-DISTRINET RESEARCH GROUP, KU Leuven', link: 'https://distrinet.cs.kuleuven.be' },
       { text: 'License', link: '/LICENSE.md' },
     ],
     sidebar: [
