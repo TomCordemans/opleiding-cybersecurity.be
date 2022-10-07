@@ -37,6 +37,6 @@ Vragen en opmerkingen zijn steeds welkom!
 
 [GitHub Issues of Pull Requests](https://github.com/TomCordemans/opleiding-cybersecurity.be)
 
-[E-mail](mailto:tom.cordemans@vives.be)
+[E-mail](mailto:tom.cordemans@kuleuven.be)
 
 [LinkedIn](https://linkedin.com/in/tom-cordemans-54419821)
