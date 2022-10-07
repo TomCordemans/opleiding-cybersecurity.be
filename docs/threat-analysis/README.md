@@ -273,7 +273,7 @@ De HTTPS-connectie uit onderdeel 4 wordt beëindigd door de computer van de gebr
 *Opmerking: Waarom staat dit in het rood?*  
 *[Coloring Rule Name: TCP RST]*   
 *[Coloring Rule String: tcp.flags.reset eq 1]*   
-*Een TCP-RST wordt vaak gebruikt om een verbinding snel af te breken. Het zorgt voor minder overhead dan bij een TCP-FIN.* *In de huidige context is dit verdacht.*   
+*Een TCP-RST wordt vaak gebruikt om een verbinding snel af te breken. Het zorgt voor minder overhead dan bij een TCP-FIN.* *In de huidige context is dit niet verdacht.*   
 
 **Frame 53:**   
 De HTTPS-connectie uit onderdeel 3 wordt beëindigd door de computer van de gebruiker.  
