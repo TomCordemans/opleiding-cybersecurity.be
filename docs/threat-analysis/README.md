@@ -19,7 +19,7 @@ Sommigen opteren om zelf hun profiel samen te stellen. Anderen maken gebruik van
 ![OEFENING8](./assets/OEFENING8.png)   
 In deze oefening importen we een security profiel in Wireshark. Hierbij maken we reeds gebruik van een Kali Linux virtuele machine.   
 [Video - SECURITY_PROFILE.MKV](https://opleiding-cybersecurity.be/SECURITY_PROFILE.mkv)  
-[Bestand - SECURITYV7.ZIP](https://opleiding-cybersecurity.be/SecurityV7.zip)  
+[Bestand - SECURITYV8.ZIP](https://opleiding-cybersecurity.be/SecurityV8.zip)  
 
 
 
