@@ -13,7 +13,7 @@ Het capteren en analyseren van netwerkverkeer zijn echter twee onafhankelijke ta
 
 #### Bij een bekabeld netwerk
 
-Bij het capteren van netwerkverkeer wordt een kopie genomen van alle netwerkverkeer die zich verplaatst over een bepaalde verbinding. De belangrijkste vereisten zijn de accuraatheid en de de volledigheid van de captatie. Daarnaast mag het capteren geen invloed hebben op het netwerk.  
+Bij het capteren van netwerkverkeer wordt een kopie genomen van alle netwerkverkeer die zich verplaatst over een bepaalde verbinding. De belangrijkste vereisten zijn de accuraatheid en de volledigheid van de captatie. Daarnaast mag het capteren geen invloed hebben op het netwerk.  
 
 Standaard verwerkt een netwerkkaart enkel specifieke frames.
 - Het destinatie MAC-adres is gelijk aan het eigen MAC-adres van de netwerkkaart.
